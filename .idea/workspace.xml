@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbb37b67-14bc-4fd2-8d74-e5539b1694ac" name="Default Changelist" comment="" />
+    <list default="true" id="bbb37b67-14bc-4fd2-8d74-e5539b1694ac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/forthTry/prod.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forthTry/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/forthTry/wsgi.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +26,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/forthTry/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="414">
@@ -32,8 +36,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/forthTry/prod.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/forthTry/wsgi.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#224#233#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -46,6 +66,8 @@
       <list>
         <option value="$PROJECT_DIR$/inner_ulb_manager.ini" />
         <option value="$PROJECT_DIR$/forthTry/settings.py" />
+        <option value="$PROJECT_DIR$/forthTry/prod.py" />
+        <option value="$PROJECT_DIR$/forthTry/wsgi.py" />
       </list>
     </option>
   </component>
@@ -135,7 +157,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568448990415</updated>
-      <workItem from="1568448993368" duration="956000" />
+      <workItem from="1568448993368" duration="1029000" />
     </task>
     <task id="LOCAL-00001" summary="wsgi">
       <created>1568450015499</created>
@@ -155,7 +177,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="956000" />
+    <option name="totallyTimeSpent" value="1029000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1680" height="1050" extended-state="0" />
@@ -192,9 +214,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="wsgi" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/forthTry/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/inner_ulb_manager.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -202,10 +221,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/forthTry/prod.pt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/forthTry/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="126" column="20" lean-forward="true" selection-start-line="126" selection-start-column="20" selection-end-line="126" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forthTry/prod.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forthTry/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#224#233#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
