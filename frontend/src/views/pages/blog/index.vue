@@ -22,21 +22,18 @@ export default {
   data () {
     return {
       log: null, // 博客侧边栏目录
-      href: this.$route.path, // 当前href
       compiledMarkdown: '',
       loading: false // 加载图标
     }
   },
+  watch: {
+    '$route' () { // 监听路由变化
+      let that = this
+      that.init()
+    }
+  },
   created () {
-    this.loading = true
-    const that = this
-    getBlogItem({
-      blogHref: that.href
-    })
-      .then(res => {
-        that.log = res.data
-        this.loading = false
-      })
+    this.init()
   },
   methods: {
     clickContent (name) {
@@ -48,6 +45,18 @@ export default {
       })
         .then(res => {
           that.compiledMarkdown = res.data
+          this.loading = false
+        })
+    },
+    init () {
+      // 导航栏切换刷新页面
+      this.loading = true
+      const that = this
+      getBlogItem({
+        blogHref: that.$route.path
+      })
+        .then(res => {
+          that.log = res.data
           this.loading = false
         })
     }
