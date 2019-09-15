@@ -11,7 +11,7 @@ def get_blog(request):
     elif request.method == 'POST':
         # 获取博客目录
         # 性能待优化！
-        href = json.loads(request.body)['blogHref']
+        href = json.loads(request.body.decode('utf-8'))['blogHref']
         item = list(models.BlogItem.objects.all().values('href', 'title', 'name'))
         chosenItem = []  # 数据库中当前导航类别的blog
         chosenTitle = []  # 数据中当前导航类别的大标题
@@ -36,7 +36,7 @@ def get_blog(request):
 def get_blog_content(request):
     if request.method == 'POST':
         # 获取博客文字内容
-        href = json.loads(request.body)['blogHref']
-        name = json.loads(request.body)['blogName']
+        href = json.loads(request.body.decode('utf-8'))['blogHref']
+        name = json.loads(request.body.decode('utf-8'))['blogName']
         item = models.BlogContent.objects.get(href=href, name=name)
         return HttpResponse(item.text)
