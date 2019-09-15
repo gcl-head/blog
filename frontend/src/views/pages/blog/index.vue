@@ -37,10 +37,11 @@ export default {
   },
   methods: {
     clickContent (name) {
+      console.log(1)
       this.loading = true
       const that = this
       getBlogContent({
-        blogHref: that.href,
+        blogHref: that.$route.path,
         blogName: name
       })
         .then(res => {
