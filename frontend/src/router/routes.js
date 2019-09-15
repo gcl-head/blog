@@ -19,8 +19,32 @@ const frameIn = [
       },
       // 博客页面
       {
-        path: 'tech',
-        name: 'tech',
+        path: 'frontend',
+        name: 'frontend',
+        meta: {
+          title: '大头的博客们'
+        },
+        component: _import('pages/blog')
+      },
+      {
+        path: 'algorithm',
+        name: 'algorithm',
+        meta: {
+          title: '大头的博客们'
+        },
+        component: _import('pages/blog')
+      },
+      {
+        path: 'life',
+        name: 'life',
+        meta: {
+          title: '大头的博客们'
+        },
+        component: _import('pages/blog')
+      },
+      {
+        path: 'project',
+        name: 'project',
         meta: {
           title: '大头的博客们'
         },
