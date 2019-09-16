@@ -1,6 +1,6 @@
 <template>
   <el-container ref="homePage">
-    <el-header>
+    <el-header style="min-width: 650px;">
       <el-menu :default-active="activeIndex" mode="horizontal" router>
         <div class="header-left">
           <el-menu-item index="/index" style="font-size: 20px;">
