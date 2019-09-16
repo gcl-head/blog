@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bbb37b67-14bc-4fd2-8d74-e5539b1694ac" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forthTry/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/forthTry/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/router/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/router/routes.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,11 +28,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/components/navigation-bar/index.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+              <folding>
+                <element signature="n#style#0;n#el-menu-item#0;n#div#0;n#el-menu#0;n#el-header#0;n#el-container#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#el-link#0;n#el-menu-item#1;n#div#1;n#el-menu#0;n#el-header#0;n#el-container#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/forthTry/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="27" column="62" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
+            <state relative-caret-position="299">
+              <caret line="18" column="58" lean-forward="true" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -51,6 +64,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="414">
               <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/router/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,11 +116,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/src/router/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="342">
+              <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -122,8 +150,8 @@
         <option value="$PROJECT_DIR$/backend/views.py" />
         <option value="$PROJECT_DIR$/frontend/src/views/pages/blog/index.vue" />
         <option value="$PROJECT_DIR$/frontend/src/plugin/axios/index.js" />
-        <option value="$PROJECT_DIR$/frontend/src/router/routes.js" />
         <option value="$PROJECT_DIR$/forthTry/settings.py" />
+        <option value="$PROJECT_DIR$/frontend/src/router/routes.js" />
       </list>
     </option>
   </component>
@@ -157,6 +185,64 @@
               <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="navigation-bar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="plugin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="axios" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -170,6 +256,7 @@
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/frontend/node_modules/eslint" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -224,21 +311,7 @@
       <workItem from="1568532731937" duration="9980000" />
       <workItem from="1568597507688" duration="5893000" />
       <workItem from="1568607841278" duration="3583000" />
-      <workItem from="1568619956344" duration="4500000" />
-    </task>
-    <task id="LOCAL-00010" summary="数据库密码账号更新">
-      <created>1568519062888</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1568519062888</updated>
-    </task>
-    <task id="LOCAL-00011" summary="修改axios baseurl">
-      <created>1568519774432</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1568519774432</updated>
+      <workItem from="1568619956344" duration="5471000" />
     </task>
     <task id="LOCAL-00012" summary=".decode('utf-8')">
       <created>1568520158828</created>
@@ -569,11 +642,25 @@
       <option name="project" value="LOCAL" />
       <updated>1568634070897</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="新增域名bighead.net.cn">
+      <created>1568637627477</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1568637627477</updated>
+    </task>
+    <task id="LOCAL-00060" summary="路由组件优化">
+      <created>1568639436088</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1568639436088</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35038000" />
+    <option name="totallyTimeSpent" value="36009000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -616,7 +703,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="wsgi" />
     <MESSAGE value="prod配置django" />
     <MESSAGE value="防止modules为空" />
     <MESSAGE value="123" />
@@ -640,7 +726,9 @@
     <MESSAGE value="增加博客文章一篇" />
     <MESSAGE value="增加博客上传日期和最后修改日期" />
     <MESSAGE value="优化时间颜色&amp;&amp;上传新博客" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化时间颜色&amp;&amp;上传新博客" />
+    <MESSAGE value="新增域名bighead.net.cn" />
+    <MESSAGE value="路由组件优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="路由组件优化" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/forthTry/prod.pt" />
@@ -686,17 +774,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/components/navigation-bar/index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
-          <caret line="64" column="113" selection-start-line="64" selection-start-column="113" selection-end-line="64" selection-end-column="113" />
-          <folding>
-            <element signature="n#style#0;n#el-menu-item#0;n#div#0;n#el-menu#0;n#el-header#0;n#el-container#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-link#0;n#el-menu-item#1;n#div#1;n#el-menu#0;n#el-header#0;n#el-container#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/App.vue">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -709,16 +786,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/api/get_blog.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/views.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -734,13 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/plugin/axios/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -764,13 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/router/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/forthTry/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
@@ -783,8 +836,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/forthTry/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="27" column="62" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
+        <state relative-caret-position="299">
+          <caret line="18" column="58" lean-forward="true" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/components/navigation-bar/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+          <folding>
+            <element signature="n#style#0;n#el-menu-item#0;n#div#0;n#el-menu#0;n#el-header#0;n#el-container#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-link#0;n#el-menu-item#1;n#div#1;n#el-menu#0;n#el-header#0;n#el-container#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/plugin/axios/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/router/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

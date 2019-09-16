@@ -16,7 +16,7 @@ const frameIn = [
         meta: {
           title: '大头博客的首页'
         },
-        component: blog
+        component: nav
       },
       // 博客页面
       {
