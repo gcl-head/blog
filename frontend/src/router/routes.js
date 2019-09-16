@@ -1,6 +1,7 @@
 import nav from '@/components/navigation-bar'
+import blog from '@/views/pages/blog'
 // 简化加载路径
-const _import = file => () => import('@/views/' + file)
+// const _import = file => () => import('@/views/' + file)
 // 主框架
 const frameIn = [
   {
@@ -15,7 +16,7 @@ const frameIn = [
         meta: {
           title: '大头博客的首页'
         },
-        component: _import('pages/index')
+        component: blog
       },
       // 博客页面
       {
@@ -24,7 +25,7 @@ const frameIn = [
         meta: {
           title: '大头的博客们'
         },
-        component: _import('pages/blog')
+        component: blog
       },
       {
         path: 'algorithm',
@@ -32,7 +33,7 @@ const frameIn = [
         meta: {
           title: '大头的博客们'
         },
-        component: _import('pages/blog')
+        component: blog
       },
       {
         path: 'life',
@@ -40,7 +41,7 @@ const frameIn = [
         meta: {
           title: '大头的博客们'
         },
-        component: _import('pages/blog')
+        component: blog
       },
       {
         path: 'project',
@@ -48,7 +49,7 @@ const frameIn = [
         meta: {
           title: '大头的博客们'
         },
-        component: _import('pages/blog')
+        component: blog
       }
     ]
   }
