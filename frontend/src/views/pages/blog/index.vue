@@ -51,8 +51,8 @@ export default {
         .then(res => {
           that.markdownRefresh = false
           that.compiledMarkdown = '>' +
-            '创建时间:' + res.data.create_timestamp + '\n' +
-            '>最后修改时间:' + res.data.last_edit_timestamp + '\n' +
+            '<font color="#808080">创建时间:' + res.data.create_timestamp + '\n' +
+            '>最后修改时间:' + res.data.last_edit_timestamp + '</font>\n' +
             '---\n' + res.data.text
           that.$nextTick(function () {
             that.markdownRefresh = true
