@@ -6,7 +6,7 @@
     <el-main>
       <el-row type="flex" justify="center">
         <el-col :span="20">
-          <vue-markdown :source="compiledMarkdown" v-highlight></vue-markdown>
+          <vue-markdown :source="compiledMarkdown" v-if="markdownRefresh" v-highlight></vue-markdown>
         </el-col>
       </el-row>
     </el-main>
@@ -21,8 +21,9 @@ export default {
   },
   data () {
     return {
-      log: null, // 博客侧边栏目录
-      compiledMarkdown: ''
+      log: [], // 博客侧边栏目录
+      compiledMarkdown: '',
+      markdownRefresh: true // markdown刷新开关
     }
   },
   watch: {
@@ -48,7 +49,11 @@ export default {
         blogName: name
       })
         .then(res => {
+          that.markdownRefresh = false
           that.compiledMarkdown = res.data
+          that.$nextTick(function () {
+            that.markdownRefresh = true
+          })
           loading.close()
         })
     },
