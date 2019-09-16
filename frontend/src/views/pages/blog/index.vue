@@ -50,7 +50,10 @@ export default {
       })
         .then(res => {
           that.markdownRefresh = false
-          that.compiledMarkdown = res.data
+          that.compiledMarkdown = '>' +
+            '创建时间:' + res.data.create_timestamp + '\n' +
+            '>最后修改时间:' + res.data.last_edit_timestamp + '\n' +
+            '---\n' + res.data.text
           that.$nextTick(function () {
             that.markdownRefresh = true
           })

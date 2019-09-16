@@ -39,4 +39,9 @@ def get_blog_content(request):
         href = json.loads(request.body.decode('utf-8'))['blogHref']
         name = json.loads(request.body.decode('utf-8'))['blogName']
         item = models.BlogContent.objects.get(href=href, name=name)
-        return HttpResponse(item.text)
+        re = {
+            'text': item.text,  # 博客内容
+            'create_timestamp': item.create_timestamp.strftime('%Y-%m-%d'),  # 博客首次创建时间
+            'last_edit_timestamp': item.last_edit_timestamp.strftime('%Y-%m-%d')  # 博客最后修改时间
+        }
+        return HttpResponse(json.dumps(re))

@@ -17,5 +17,7 @@ class BlogContent(models.Model):
     href = models.CharField(max_length=10, null=True)
     name = models.CharField(max_length=25, null=True)
     text = models.TextField(null=True)  # 博客内容markdown
+    create_timestamp = models.DateTimeField(auto_now_add=True, null=True)  # 首次创建时间
+    last_edit_timestamp = models.DateTimeField(auto_now=True, null=True)  # 最后修改时间
 
 
