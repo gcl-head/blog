@@ -66,6 +66,11 @@ export default {
       })
         .then(res => {
           that.log = res.data
+          if (res.data.length === 0) {
+            that.compiledMarkdown = ''
+          } else {
+            that.clickContent(res.data[0].name[0])
+          }
           loading.close()
         })
     }
