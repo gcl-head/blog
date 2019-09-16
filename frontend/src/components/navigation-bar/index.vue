@@ -1,5 +1,5 @@
 <template>
-  <el-container>
+  <el-container ref="homePage">
     <el-header>
       <el-menu :default-active="activeIndex" mode="horizontal" router>
         <div class="header-left">
@@ -27,6 +27,7 @@ export default {
   name: 'navigation-bar',
   data () {
     return {
+      clientHeight: '', // 浏览器可视区域高度
       activeIndex: this.$route.path,
       groups: [], // 导航栏目录列表
       blogHref: '' // href
@@ -45,6 +46,24 @@ export default {
         that.groups = res.data
       })
     loading.close()
+  },
+  mounted () {
+    // 获取浏览器可视区域高度
+    this.clientHeight = `${document.documentElement.clientHeight}`
+    window.onresize = function temp () {
+      this.clientHeight = `${document.documentElement.clientHeight}`
+    }
+  },
+  watch: {
+    // 如果 `clientHeight` 发生改变，这个函数就会运行
+    clientHeight: function () {
+      this.changeFixed(this.clientHeight)
+    }
+  },
+  methods: {
+    changeFixed (clientHeight) {
+      this.$refs.homePage.$el.style.height = clientHeight - 20 + 'px' // 根据可视区域高度改变el-container高度使header时钟在页面上方浮动
+    }
   }
 }
 </script>
