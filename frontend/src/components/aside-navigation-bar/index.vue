@@ -1,6 +1,6 @@
 <template>
   <div class="log">
-    <el-menu @select="handleSelect" text-color="#2c3e50" active-text-color="#3eaf7c">
+    <el-menu @select="handleSelect" text-color="#2c3e50" active-text-color="#3eaf7c" :default-active="da">
       <div v-for="item in log" :key="item.title" class="log-links">
         <p class="log-header">{{ item.title }}</p>
         <el-menu-item :index="iitem" v-for="iitem in item.name" :key="iitem">{{ iitem }}</el-menu-item>
@@ -13,12 +13,13 @@ export default {
   name: 'aside-navigation-bar',
   props: {
     log: {
-      default: [
-        {
-          title: '暂无内容',
-          name: []
-        }
-      ]
+      default: []
+    }
+  },
+  computed: {
+    da () {
+      if (this.log.length === 0) return ''
+      return this.log[0].name[0]
     }
   },
   methods: {
