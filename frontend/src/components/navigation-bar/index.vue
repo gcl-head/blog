@@ -1,5 +1,6 @@
 <template>
   <el-container ref="homePage">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
     <el-header style="min-width: 650px;">
       <el-menu :default-active="activeIndex" mode="horizontal" router>
         <div class="header-left">

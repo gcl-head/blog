@@ -1,6 +1,6 @@
 <template>
   <el-container>
-    <el-aside>
+    <el-aside style="width: 20%">
       <aside-navigation-bar :log="log" @clickContent="clickContent"></aside-navigation-bar>
     </el-aside>
     <el-main>

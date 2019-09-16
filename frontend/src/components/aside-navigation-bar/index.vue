@@ -32,7 +32,7 @@ export default {
 <style lang="scss" scoped>
   .log{
     position: fixed;
-    width: 20rem;
+    width: 20%;
     top: 70px;
     left: 0;
     bottom: 0;
