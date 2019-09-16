@@ -1,5 +1,5 @@
 <template>
-  <el-container  :v-loading="loading">
+  <el-container>
     <el-header>
       <el-menu :default-active="activeIndex" mode="horizontal" router>
         <div class="header-left">
@@ -29,18 +29,22 @@ export default {
     return {
       activeIndex: this.$route.path,
       groups: [], // 导航栏目录列表
-      blogHref: '', // href
-      loading: false // 加载图标
+      blogHref: '' // href
     }
   },
   created () {
-    this.loading = true
+    const loading = this.$loading({
+      lock: true,
+      text: 'Loading',
+      spinner: 'el-icon-loading',
+      background: 'rgba(0, 0, 0, 0.7)'
+    })
     let that = this
     getBlogGroup()
       .then(res => {
         that.groups = res.data
-        this.loading = false
       })
+    loading.close()
   }
 }
 </script>

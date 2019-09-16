@@ -1,5 +1,5 @@
 <template>
-  <el-container :v-loading="loading">
+  <el-container>
     <el-aside>
       <aside-navigation-bar :log="log" @clickContent="clickContent"></aside-navigation-bar>
     </el-aside>
@@ -22,8 +22,7 @@ export default {
   data () {
     return {
       log: null, // 博客侧边栏目录
-      compiledMarkdown: '',
-      loading: false // 加载图标
+      compiledMarkdown: ''
     }
   },
   watch: {
@@ -37,8 +36,12 @@ export default {
   },
   methods: {
     clickContent (name) {
-      console.log(1)
-      this.loading = true
+      const loading = this.$loading({
+        lock: true,
+        text: 'Loading',
+        spinner: 'el-icon-loading',
+        background: 'rgba(0, 0, 0, 0.7)'
+      })
       const that = this
       getBlogContent({
         blogHref: that.$route.path,
@@ -46,19 +49,24 @@ export default {
       })
         .then(res => {
           that.compiledMarkdown = res.data
-          this.loading = false
+          loading.close()
         })
     },
     init () {
       // 导航栏切换刷新页面
-      this.loading = true
+      const loading = this.$loading({
+        lock: true,
+        text: 'Loading',
+        spinner: 'el-icon-loading',
+        background: 'rgba(0, 0, 0, 0.7)'
+      })
       const that = this
       getBlogItem({
         blogHref: that.$route.path
       })
         .then(res => {
           that.log = res.data
-          this.loading = false
+          loading.close()
         })
     }
   }
