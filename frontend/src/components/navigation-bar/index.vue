@@ -2,9 +2,10 @@
   <el-container ref="homePage">
     <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
     <el-header style="min-width: 650px;">
-      <el-menu :default-active="activeIndex" mode="horizontal" router>
+      <el-menu :default-active="activeIndex" mode="horizontal" @select="menuSelect" router>
         <div class="header-left">
-          <el-menu-item index="/index" style="font-size: 20px;">
+          <i class="el-icon-s-operation icon" @click="changeCollapse" v-if="isBlog"></i>
+          <el-menu-item index="/index" style="font-size: 20px;display: inline;">
               大头博客
           </el-menu-item>
         </div>
@@ -19,7 +20,7 @@
         </div>
       </el-menu>
     </el-header>
-    <router-view/>
+    <router-view ref="router"/>
   </el-container>
 </template>
 <script>
@@ -31,7 +32,9 @@ export default {
       clientHeight: '', // 浏览器可视区域高度
       activeIndex: this.$route.path,
       groups: [], // 导航栏目录列表
-      blogHref: '' // href
+      blogHref: '', // href
+      isCollapse: false, // 侧边栏是否收缩
+      isBlog: this.$route.path !== '/index' // 当前导航栏是否为博客页
     }
   },
   created () {
@@ -64,6 +67,20 @@ export default {
   methods: {
     changeFixed (clientHeight) {
       this.$refs.homePage.$el.style.height = clientHeight - 20 + 'px' // 根据可视区域高度改变el-container高度使header时钟在页面上方浮动
+    },
+    changeCollapse () {
+      // 点击收缩侧边栏图标
+      if (this.isCollapse) {
+        this.isCollapse = false
+        this.$refs.router.changeCollapse(this.isCollapse)
+      } else {
+        this.isCollapse = true
+        this.$refs.router.changeCollapse(this.isCollapse)
+      }
+    },
+    menuSelect (index) { // 是否隐藏收缩侧边栏图标
+      if (index === '/index') this.isBlog = false
+      else this.isBlog = true
     }
   }
 }
@@ -75,6 +92,10 @@ export default {
     .is-active{
       color: black;
       background-color: white;
+    }
+    .icon{
+      width: 20px;
+      height: 20px;
     }
   }
   .header-right {

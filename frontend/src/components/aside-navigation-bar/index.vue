@@ -1,6 +1,6 @@
 <template>
-  <div class="log">
-    <el-menu @select="handleSelect" text-color="#2c3e50" active-text-color="#3eaf7c" :default-active="da">
+  <div class="log" id="log">
+    <el-menu :collapse="isCollapse" @select="handleSelect" text-color="#2c3e50" active-text-color="#3eaf7c" :default-active="da">
       <div v-for="item in log" :key="item.title" class="log-links">
         <p class="log-header">{{ item.title }}</p>
         <el-menu-item :index="iitem" v-for="iitem in item.name" :key="iitem">{{ iitem }}</el-menu-item>
@@ -16,6 +16,11 @@ export default {
       default: []
     }
   },
+  data () {
+    return {
+      isCollapse: false
+    }
+  },
   computed: {
     da () {
       if (this.log.length === 0) return ''
@@ -25,6 +30,14 @@ export default {
   methods: {
     handleSelect (key) {
       this.$emit('clickContent', key) // 点击目录内容跳转
+    },
+    changeCollapse (isCollapse) {
+      this.isCollapse = isCollapse
+      if (isCollapse) {
+        document.getElementById('log').style.width = '0'
+      } else {
+        document.getElementById('log').style.width = '20rem'
+      }
     }
   }
 }
@@ -32,7 +45,7 @@ export default {
 <style lang="scss" scoped>
   .log{
     position: fixed;
-    width: 20%;
+    width: 20rem;
     top: 70px;
     left: 0;
     bottom: 0;
@@ -59,6 +72,10 @@ export default {
 </style>
 <style lang="scss">
   .el-aside{
+    width: 20rem;
+    .el-menu--collapse{
+      width: 0;
+    }
     .el-menu{
       overflow: hidden;
       padding-left: 0;

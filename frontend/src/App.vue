@@ -10,3 +10,10 @@ export default {
   name: 'App'
 }
 </script>
+<style>
+  :focus {
+
+    outline: 0;
+
+  }
+</style>

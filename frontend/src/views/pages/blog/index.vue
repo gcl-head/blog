@@ -1,7 +1,7 @@
 <template>
   <el-container>
-    <el-aside style="width: 20%">
-      <aside-navigation-bar :log="log" @clickContent="clickContent"></aside-navigation-bar>
+    <el-aside id="aside">
+      <aside-navigation-bar :log="log" @clickContent="clickContent" ref="asideBar"></aside-navigation-bar>
     </el-aside>
     <el-main>
       <el-row type="flex" justify="center">
@@ -37,6 +37,7 @@ export default {
   },
   methods: {
     clickContent (name) {
+      // 选择目录
       const loading = this.$loading({
         lock: true,
         text: 'Loading',
@@ -50,7 +51,7 @@ export default {
       })
         .then(res => {
           that.markdownRefresh = false
-          that.compiledMarkdown = '>' +
+          that.compiledMarkdown = '>' + // 增加时间
             '<font color="#808080">创建时间:' + res.data.create_timestamp + '\n' +
             '>最后修改时间:' + res.data.last_edit_timestamp + '</font>\n' +
             '---\n' + res.data.text
@@ -81,6 +82,12 @@ export default {
           }
           loading.close()
         })
+    },
+    changeCollapse (isCollapse) {
+      // 点击收缩侧边栏图标
+      this.$refs.asideBar.changeCollapse(isCollapse)
+      if (isCollapse) document.getElementById('aside').style.width = '0'
+      else document.getElementById('aside').style.width = '20rem'
     }
   }
 }
