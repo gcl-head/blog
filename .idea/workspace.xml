@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bbb37b67-14bc-4fd2-8d74-e5539b1694ac" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forthTry/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/forthTry/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/api/get_blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/api/get_blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/aside-navigation-bar/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/aside-navigation-bar/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/navigation-bar/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/navigation-bar/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/views/pages/blog/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/views/pages/blog/index.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/src/components/navigation-bar/index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="23" column="352" selection-start-line="23" selection-start-column="352" selection-end-line="23" selection-end-column="352" />
+            <state relative-caret-position="290">
+              <caret line="73" column="4" lean-forward="true" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="4" />
               <folding>
                 <element signature="n#style#0;n#el-header#0;n#el-container#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#el-menu-item#0;n#div#0;n#el-menu#0;n#el-header#0;n#el-container#0;n#template#0;n#!!top" expanded="true" />
@@ -78,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/backend/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="62" column="52" selection-start-line="62" selection-start-column="52" selection-end-line="62" selection-end-column="52" />
+            <state relative-caret-position="498">
+              <caret line="64" column="9" lean-forward="true" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -117,7 +110,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/src/plugin/axios/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
@@ -369,14 +362,7 @@
       <workItem from="1568677252346" duration="549000" />
       <workItem from="1568678177818" duration="5228000" />
       <workItem from="1568801308589" duration="7408000" />
-      <workItem from="1568883199053" duration="6385000" />
-    </task>
-    <task id="LOCAL-00020" summary="http web部署">
-      <created>1568522807296</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1568522807296</updated>
+      <workItem from="1568883199053" duration="7043000" />
     </task>
     <task id="LOCAL-00021" summary="http web部署">
       <created>1568523205846</created>
@@ -714,11 +700,18 @@
       <option name="project" value="LOCAL" />
       <updated>1568885734024</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="增加搜索功能">
+      <created>1568894374869</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1568894374869</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56452000" />
+    <option name="totallyTimeSpent" value="57110000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -761,7 +754,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=".decode('utf-8')" />
     <MESSAGE value="http web部署" />
     <MESSAGE value="add loading 图标" />
     <MESSAGE value="remove uwsgi http" />
@@ -786,7 +778,8 @@
     <MESSAGE value="去除最后修改时间&amp;&amp;博客内容修改" />
     <MESSAGE value="store文件优化" />
     <MESSAGE value="增加访问量计数" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加访问量计数" />
+    <MESSAGE value="增加搜索功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加搜索功能" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/forthTry/prod.pt" />
@@ -885,16 +878,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="62" column="52" selection-start-line="62" selection-start-column="52" selection-end-line="62" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/forthTry/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -954,8 +937,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/components/navigation-bar/index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="23" column="352" selection-start-line="23" selection-start-column="352" selection-end-line="23" selection-end-column="352" />
+        <state relative-caret-position="290">
+          <caret line="73" column="4" lean-forward="true" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="4" />
           <folding>
             <element signature="n#style#0;n#el-header#0;n#el-container#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#el-menu-item#0;n#div#0;n#el-menu#0;n#el-header#0;n#el-container#0;n#template#0;n#!!top" expanded="true" />
@@ -968,6 +951,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="64" column="9" lean-forward="true" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

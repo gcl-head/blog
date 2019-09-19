@@ -58,8 +58,8 @@ def search(request):
         position = re.search(content, r.text, re.I).span()[0]  # 匹配位置
         res.append(
             {
-                'name': r.name,
-                'href': r.href,
+                'name': r.name,  # 匹配文章名
+                'href': r.href,  # 匹配文章链接
                 'value': r.text[position:position+20]
             }
         )
