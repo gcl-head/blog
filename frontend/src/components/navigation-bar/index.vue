@@ -10,6 +10,13 @@
           </el-menu-item>
         </div>
         <div class="header-right">
+          <el-autocomplete
+                  v-model="searchState"
+                  :fetch-suggestions="querySearch"
+                  placeholder="请输入内容"
+                  @select="searchSelect"
+                  clearable
+          ></el-autocomplete>
           <el-menu-item v-for="group in groups" :key="group.id" :index="group.href">{{ group.kind }}</el-menu-item>
           <el-menu-item>
             <el-link href="https://github.com/gcl-head/blog" target="_blank" :underline="false" style="color: #4d2586;">
@@ -24,7 +31,7 @@
   </el-container>
 </template>
 <script>
-import { getBlogGroup } from '@/api/get_blog'
+import { getBlogGroup, search } from '@/api/get_blog'
 export default {
   name: 'navigation-bar',
   data () {
@@ -34,7 +41,8 @@ export default {
       groups: [], // 导航栏目录列表
       blogHref: '', // href
       isCollapse: false, // 侧边栏是否收缩
-      isBlog: this.$route.path !== '/index' // 当前导航栏是否为博客页
+      isBlog: this.$route.path !== '/index', // 当前导航栏是否为博客页
+      searchState: '' // 搜索状态
     }
   },
   created () {
@@ -81,6 +89,26 @@ export default {
     menuSelect (index) { // 是否隐藏收缩侧边栏图标
       if (index === '/index') this.isBlog = false
       else this.isBlog = true
+    },
+    querySearch (queryString, cb) {
+      // 搜索框内容变化调用
+      if (queryString) {
+        search(queryString)
+          .then(res => {
+            cb(res.data)
+          })
+      }
+    },
+    searchSelect (item) {
+      // 选择搜索框下拉列表结果
+      if (this.$route.path === item.href) {
+        this.$refs.router.clickContent(item.name)
+        return
+      }
+      let that = this
+      this.$router.push({path: item.href}).then(
+        that.$refs.router.clickContent(item.name)
+      )
     }
   }
 }

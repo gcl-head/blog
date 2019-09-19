@@ -22,3 +22,11 @@ export function getBlogContent (data) {
     data
   })
 }
+
+export function search (data) {
+  return request({
+    url: 'search/',
+    method: 'post',
+    data
+  })
+}

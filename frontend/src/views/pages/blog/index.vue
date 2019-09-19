@@ -57,6 +57,7 @@ export default {
           that.$nextTick(function () {
             that.markdownRefresh = true
           })
+          that.$refs.asideBar.activeIndex = name
           loading.close()
         })
     },

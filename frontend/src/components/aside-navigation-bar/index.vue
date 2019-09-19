@@ -1,6 +1,6 @@
 <template>
   <div class="log" id="log">
-    <el-menu :collapse="isCollapse" @select="handleSelect" text-color="#2c3e50" active-text-color="#3eaf7c" :default-active="da">
+    <el-menu :collapse="isCollapse" @select="handleSelect" text-color="#2c3e50" active-text-color="#3eaf7c" :default-active="activeIndex">
       <div v-for="item in log" :key="item.title" class="log-links">
         <p class="log-header">{{ item.title }}</p>
         <el-menu-item :index="iitem" v-for="iitem in item.name" :key="iitem">{{ iitem }}</el-menu-item>
@@ -18,7 +18,8 @@ export default {
   },
   data () {
     return {
-      isCollapse: false
+      isCollapse: false,
+      activeIndex: '' // 当前选中index
     }
   },
   computed: {
