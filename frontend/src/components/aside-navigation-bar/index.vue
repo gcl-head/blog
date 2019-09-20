@@ -57,13 +57,12 @@ export default {
     display: block;
     padding-left: 0;
     .log-links{
-      padding: 1.5rem 0;
       display: block;
       .log-header{
         color: #2c3e50;
         font-size: 1.1em;
         font-weight: 700;
-        padding: .35rem 1.5rem .35rem 1.25rem;
+        padding: .35rem 1.5rem 0 1.25rem;
         width: 100%;
         border-left: .25rem solid transparent;
         box-sizing: border-box;
