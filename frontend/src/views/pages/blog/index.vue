@@ -7,6 +7,7 @@
       <el-row type="flex" justify="center">
         <el-col :span="20">
           <vue-markdown :source="compiledMarkdown" v-if="markdownRefresh" v-highlight></vue-markdown>
+          <comments :currentChoice = currentChoice v-if="showComment"></comments>
         </el-col>
       </el-row>
     </el-main>
@@ -15,15 +16,19 @@
 <script>
 import { getBlogItem, getBlogContent } from '@/api/get_blog'
 import VueMarkdown from 'vue-markdown' // markdown组件
+import comments from '@/components/valine'
 export default {
   components: {
-    VueMarkdown
+    VueMarkdown,
+    comments
   },
   data () {
     return {
       log: [], // 博客侧边栏目录
       compiledMarkdown: '',
-      markdownRefresh: true // markdown刷新开关
+      markdownRefresh: true, // markdown刷新开关
+      currentChoice: '', // 当前选择name
+      showComment: false // 是否显示评论栏
     }
   },
   watch: {
@@ -37,6 +42,11 @@ export default {
   },
   methods: {
     clickContent (name) {
+      this.showComment = false
+      this.currentChoice = name
+      this.$nextTick(function () {
+        this.showComment = true
+      })
       // 选择目录
       const loading = this.$loading({
         lock: true,
@@ -77,6 +87,8 @@ export default {
           that.log = res.data
           if (res.data.length === 0) {
             that.compiledMarkdown = ''
+            that.showComment = false
+            that.currentChoice = ''
           } else {
             that.clickContent(res.data[0].name[0])
           }
