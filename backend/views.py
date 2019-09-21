@@ -3,6 +3,10 @@ from backend import models
 import json
 import re  # 正则
 
+def get_new_blog(request):
+    # 获取最新15条blog
+    re = list(models.BlogItem.objects.all().values('href', 'name'))[::-1][:15]
+    return HttpResponse(json.dumps(re))
 
 def get_blog(request):
     if request.method == 'GET':
@@ -39,6 +43,7 @@ def get_blog_content(request):
         # 获取博客文字内容
         href = json.loads(request.body.decode('utf-8'))['blogHref']
         name = json.loads(request.body.decode('utf-8'))['blogName']
+        print(href, name)
         item = models.BlogContent.objects.get(href=href, name=name)
         re = {
             'text': item.text,  # 博客内容

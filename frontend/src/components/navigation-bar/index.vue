@@ -14,6 +14,7 @@
                   v-model="searchState"
                   :fetch-suggestions="querySearch"
                   placeholder="请输入内容"
+                  prefix-icon="el-icon-search"
                   @select="searchSelect"
                   clearable
           ></el-autocomplete>
@@ -27,7 +28,7 @@
         </div>
       </el-menu>
     </el-header>
-    <router-view ref="router"/>
+    <router-view ref="router" @search="searchSelect" @clear="clearBlogName" :blogName="searchName"/>
   </el-container>
 </template>
 <script>
@@ -42,7 +43,8 @@ export default {
       blogHref: '', // href
       isCollapse: false, // 侧边栏是否收缩
       isBlog: this.$route.path !== '/index', // 当前导航栏是否为博客页
-      searchState: '' // 搜索状态
+      searchState: '', // 搜索状态
+      searchName: '' // 搜索内容对应的文章标题
     }
   },
   created () {
@@ -86,8 +88,8 @@ export default {
         this.$refs.router.changeCollapse(this.isCollapse)
       }
     },
-    menuSelect (index) { // 是否隐藏收缩侧边栏图标
-      if (index === '/index') this.isBlog = false
+    menuSelect (index) {
+      if (index === '/index') this.isBlog = false // 是否隐藏收缩侧边栏图标
       else this.isBlog = true
     },
     querySearch (queryString, cb) {
@@ -105,10 +107,11 @@ export default {
         this.$refs.router.clickContent(item.name)
         return
       }
-      let that = this
-      this.$router.push({path: item.href}).then(
-        that.$refs.router.clickContent(item.name)
-      )
+      this.searchName = item.name // 想blog组件传递当前选择的文章名字
+      this.$router.push({path: item.href})
+    },
+    clearBlogName () {
+      this.searchName = '' // 清空当前选择文章名字
     }
   }
 }
@@ -144,6 +147,9 @@ export default {
     }
     .el-link:hover{
       background-color: white;
+    }
+    .el-autocomplete{
+      top: 0.5rem;
     }
   }
 </style>

@@ -1,5 +1,12 @@
 import request from '@/plugin/axios'
 
+export function getNewBlog () {
+  return request({
+    url: 'new_blog/',
+    method: 'get'
+  })
+}
+
 export function getBlogGroup () {
   return request({
     url: 'blog/',

@@ -17,7 +17,6 @@ export default {
     createValine () {
       const Valine = require('valine')
       const that = this
-      console.log(that.currentChoice)
       window.AV = require('leancloud-storage')
       let valine = new Valine()
       valine.init({

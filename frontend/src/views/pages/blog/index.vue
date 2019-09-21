@@ -18,6 +18,13 @@ import { getBlogItem, getBlogContent } from '@/api/get_blog'
 import VueMarkdown from 'vue-markdown' // markdown组件
 import comments from '@/components/valine'
 export default {
+  props: {
+    // 搜索文章名称
+    blogName: {
+      type: String,
+      default: ''
+    }
+  },
   components: {
     VueMarkdown,
     comments
@@ -42,11 +49,6 @@ export default {
   },
   methods: {
     clickContent (name) {
-      this.showComment = false
-      this.currentChoice = name
-      this.$nextTick(function () {
-        this.showComment = true
-      })
       // 选择目录
       const loading = this.$loading({
         lock: true,
@@ -68,6 +70,11 @@ export default {
             that.markdownRefresh = true
           })
           that.$refs.asideBar.activeIndex = name
+          this.showComment = false
+          this.currentChoice = name
+          this.$nextTick(function () {
+            this.showComment = true
+          })
           loading.close()
         })
     },
@@ -84,12 +91,16 @@ export default {
         blogHref: that.$route.path
       })
         .then(res => {
+          console.log(that.blogName)
           that.log = res.data
           if (res.data.length === 0) {
             that.compiledMarkdown = ''
             that.showComment = false
             that.currentChoice = ''
-          } else {
+          } else if (that.blogName) { // 有选择内容跳转到选择内容
+            that.clickContent(that.blogName)
+            that.$emit('clear')
+          } else { // 否则默认第一条
             that.clickContent(res.data[0].name[0])
           }
           loading.close()
