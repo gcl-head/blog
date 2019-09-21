@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <div id="vcomments"></div>
-  </div>
+  <div id="vcomments"></div>
 </template>
 <script>
 export default {

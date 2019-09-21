@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbb37b67-14bc-4fd2-8d74-e5539b1694ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/valine/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/valine/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/valine/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/plugin/axios/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/plugin/axios/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/views/pages/blog/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/views/pages/blog/index.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +21,16 @@
         <entry file="file://$PROJECT_DIR$/frontend/src/plugin/axios/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
-              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/components/valine/index.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -41,20 +47,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/src/views/pages/blog/index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="90" column="36" selection-start-line="90" selection-start-column="36" selection-end-line="90" selection-end-column="36" />
+            <state relative-caret-position="275">
+              <caret line="43" column="25" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="43" selection-end-column="25" />
               <folding>
                 <element signature="e#453#513#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/components/valine/index.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -92,10 +89,10 @@
         <option value="$PROJECT_DIR$/frontend/src/views/pages/index/index.vue" />
         <option value="$PROJECT_DIR$/static/admin/css/base.css" />
         <option value="$PROJECT_DIR$/frontend/src/App.vue" />
-        <option value="$PROJECT_DIR$/frontend/src/plugin/axios/index.js" />
         <option value="$PROJECT_DIR$/frontend/index.html" />
-        <option value="$PROJECT_DIR$/frontend/src/components/valine/index.vue" />
         <option value="$PROJECT_DIR$/frontend/src/views/pages/blog/index.vue" />
+        <option value="$PROJECT_DIR$/frontend/src/plugin/axios/index.js" />
+        <option value="$PROJECT_DIR$/frontend/src/components/valine/index.vue" />
       </list>
     </option>
   </component>
@@ -144,6 +141,30 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="navigation-bar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -229,14 +250,7 @@
       <workItem from="1568903400007" duration="12000" />
       <workItem from="1568941077488" duration="599000" />
       <workItem from="1568945317991" duration="3987000" />
-      <workItem from="1569020302731" duration="2839000" />
-    </task>
-    <task id="LOCAL-00027" summary="http web部署">
-      <created>1568530839846</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1568530839846</updated>
+      <workItem from="1569020302731" duration="3902000" />
     </task>
     <task id="LOCAL-00028" summary="http web部署">
       <created>1568531075394</created>
@@ -574,11 +588,18 @@
       <option name="project" value="LOCAL" />
       <updated>1568976120314</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="增加评论功能">
+      <created>1569023777330</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1569023777330</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65039000" />
+    <option name="totallyTimeSpent" value="66102000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -591,13 +612,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29176903" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29176903" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49938574" weight="0.34651405" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49938574" visible="true" weight="0.34651405" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -606,7 +628,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="File Transfer" order="9" weight="0.3194589" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49938574" visible="true" weight="0.29656607" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49938574" weight="0.29656607" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5006142" side_tool="true" weight="0.2849345" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.3298647" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -620,7 +642,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="增加导航栏内容" />
     <MESSAGE value="8888" />
     <MESSAGE value="修复多导航栏路由切换bug" />
     <MESSAGE value="修复目录点击不出文章bug" />
@@ -645,7 +666,8 @@
     <MESSAGE value="博客内容增加" />
     <MESSAGE value="更改axios和setting，只让域名访问" />
     <MESSAGE value="增加博客内容" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加博客内容" />
+    <MESSAGE value="增加评论功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加评论功能" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/forthTry/prod.pt" />
@@ -827,24 +849,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/plugin/axios/index.js">
+    <entry file="file://$PROJECT_DIR$/frontend/src/components/valine/index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        <state relative-caret-position="252">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/components/valine/index.vue">
+    <entry file="file://$PROJECT_DIR$/frontend/src/plugin/axios/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        <state relative-caret-position="108">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/views/pages/blog/index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="90" column="36" selection-start-line="90" selection-start-column="36" selection-end-line="90" selection-end-column="36" />
+        <state relative-caret-position="275">
+          <caret line="43" column="25" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="43" selection-end-column="25" />
           <folding>
             <element signature="e#453#513#0" expanded="true" />
           </folding>
