@@ -2,7 +2,7 @@
   <el-container>
     <el-main>
       <el-row type="flex" justify="center">
-        <img class="susi" src="../../../assets/susi.jpg">
+        <img class="susi" :src="img_url">
       </el-row>
       <el-row type="flex" justify="center" style="margin-top: 10px;">
         <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
@@ -22,7 +22,8 @@ import { getNewBlog } from '@/api/get_blog'
 export default {
   data () {
     return {
-      log: []
+      log: [],
+      img_url: require('../../../assets/susi.jpg') // 图片地址
     }
   },
   created () {
