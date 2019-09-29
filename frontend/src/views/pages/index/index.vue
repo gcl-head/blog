@@ -2,7 +2,7 @@
   <el-container>
     <el-main>
       <el-row type="flex" justify="center">
-        <img class="susi" :src="img_url">
+        <img class="susi" src="https://github.com/gcl-head/blog/raw/master/frontend/static/susi.JPG">
       </el-row>
       <el-row type="flex" justify="center" style="margin-top: 10px;">
         <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
@@ -22,8 +22,7 @@ import { getNewBlog } from '@/api/get_blog'
 export default {
   data () {
     return {
-      log: [],
-      img_url: require('/static/susi.jpg') // 图片地址
+      log: []
     }
   },
   created () {
