@@ -27,7 +27,8 @@ export default {
         verify: true,
         avatar: 'retro',
         path: that.$route.path + '/' + that.currentChoice,
-        placeholder: '欢迎留言与我分享您的想法...'
+        placeholder: '欢迎留言与我分享您的想法...',
+        visitor: true // 阅读量统计
       })
       this.valineRefresh = false
     }
