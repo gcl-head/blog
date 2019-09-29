@@ -2,7 +2,8 @@
   <el-container>
     <el-main>
       <el-row type="flex" justify="center">
-        <img class="susi" src="https://github.com/gcl-head/blog/raw/master/frontend/static/susi.JPG">
+        <!--<img class="susi" src="https://github.com/gcl-head/blog/raw/master/frontend/static/susi.JPG">-->
+        <img class="susi" src="../../../assets/logo.png">
       </el-row>
       <el-row type="flex" justify="center" style="margin-top: 10px;">
         <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
