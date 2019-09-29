@@ -13,17 +13,22 @@
           <hr>
           <div v-for="item in log" :key="item.name" class="new_log" @click="clickContent(item)">{{ item.name }}</div>
         </div>
+        <comments currentChoice = "首页"></comments>
       </el-row>
     </el-main>
   </el-container>
 </template>
 <script>
 import { getNewBlog } from '@/api/get_blog'
+import comments from '@/components/valine'
 export default {
   data () {
     return {
       log: []
     }
+  },
+  components: {
+    comments
   },
   created () {
     const loading = this.$loading({
