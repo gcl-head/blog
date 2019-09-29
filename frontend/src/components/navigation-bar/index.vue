@@ -4,12 +4,12 @@
     <el-header style="min-width: 650px;">
       <el-menu :default-active="activeIndex" mode="horizontal" @select="menuSelect" router>
         <div class="header-left">
-          <i class="el-icon-s-operation icon" @click="changeCollapse" v-if="isBlog"></i>
           <el-menu-item index="/index" style="font-size: 20px;display: inline;">
               大头博客
           </el-menu-item>
         </div>
         <div class="header-right">
+          <i class="el-icon-s-operation icon" @click="changeCollapse" v-if="isBlog"></i>
           <el-autocomplete
                   v-model="searchState"
                   :fetch-suggestions="querySearch"
@@ -41,7 +41,7 @@ export default {
       activeIndex: this.$route.path,
       groups: [], // 导航栏目录列表
       blogHref: '', // href
-      isCollapse: false, // 侧边栏是否收缩
+      isCollapse: true, // 侧边栏是否收缩
       isBlog: this.$route.path !== '/index', // 当前导航栏是否为博客页
       searchState: '', // 搜索状态
       searchName: '' // 搜索内容对应的文章标题
@@ -119,20 +119,23 @@ export default {
 <style lang="scss" scoped>
   .header-left{
     position: absolute;
+    left: 20px;
     background-color: white;
     .is-active{
       color: black;
       background-color: white;
-    }
-    .icon{
-      width: 20px;
-      height: 20px;
     }
   }
   .header-right {
     display: flex;
     width: 100%;
     justify-content: flex-end;
+    .icon{
+      width: 20px;
+      height: 20px;
+      align-self: center;
+      flex: 1;
+    }
     .is-active{
       border-bottom: 1px solid #3eaf7c;
       color: #3eaf7c;
