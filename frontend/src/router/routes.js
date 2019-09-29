@@ -1,7 +1,8 @@
 import nav from '@/components/navigation-bar'
 import blog from '@/views/pages/blog'
+import index from '@/views/pages/index'
 // 简化加载路径
-const _import = file => () => import('@/views/' + file)
+// const _import = file => () => import('@/views/' + file)
 // 主框架
 const frameIn = [
   {
@@ -16,7 +17,7 @@ const frameIn = [
         meta: {
           title: '大头博客的首页'
         },
-        component: _import('pages/index')
+        component: index
       },
       // 博客页面
       {

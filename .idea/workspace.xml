@@ -19,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/frontend/src/plugin/axios/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
-              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -27,40 +27,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/src/views/pages/index/index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+            <state relative-caret-position="257">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding>
                 <element signature="n#style#0;n#el-row#1;n#el-main#0;n#el-container#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#el-row#2;n#el-main#0;n#el-container#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#el-row#2;n#el-main#0;n#el-container#0;n#template#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/forthTry/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/config/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/build/utils.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="49" column="36" lean-forward="true" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -103,8 +76,8 @@
         <option value="$PROJECT_DIR$/frontend/src/components/navigation-bar/index.vue" />
         <option value="$PROJECT_DIR$/frontend/build/utils.js" />
         <option value="$PROJECT_DIR$/frontend/config/index.js" />
-        <option value="$PROJECT_DIR$/frontend/src/plugin/axios/index.js" />
         <option value="$PROJECT_DIR$/frontend/src/views/pages/index/index.vue" />
+        <option value="$PROJECT_DIR$/frontend/src/plugin/axios/index.js" />
       </list>
     </option>
   </component>
@@ -142,18 +115,6 @@
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -161,22 +122,7 @@
               <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="plugin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="axios" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
@@ -201,12 +147,6 @@
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="index" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -298,35 +238,7 @@
       <workItem from="1569387860631" duration="941000" />
       <workItem from="1569507806356" duration="75000" />
       <workItem from="1569745062677" duration="36000" />
-      <workItem from="1569745301391" duration="3795000" />
-    </task>
-    <task id="LOCAL-00043" summary="remove uwsgi http">
-      <created>1568537208953</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1568537208953</updated>
-    </task>
-    <task id="LOCAL-00044" summary="增加导航栏内容">
-      <created>1568540093893</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1568540093893</updated>
-    </task>
-    <task id="LOCAL-00045" summary="8888">
-      <created>1568541695475</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1568541695475</updated>
-    </task>
-    <task id="LOCAL-00046" summary="8888">
-      <created>1568553707489</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1568553707489</updated>
+      <workItem from="1569745301391" duration="4454000" />
     </task>
     <task id="LOCAL-00047" summary="修复多导航栏路由切换bug">
       <created>1568556030451</created>
@@ -643,11 +555,39 @@
       <option name="project" value="LOCAL" />
       <updated>1569751872842</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="图片地址修改到git中的static中">
+      <created>1569752027090</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1569752027090</updated>
+    </task>
+    <task id="LOCAL-00093" summary="图片地址修改到git中的static中">
+      <created>1569752082828</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1569752082828</updated>
+    </task>
+    <task id="LOCAL-00094" summary="图片地址修改到git中的static中">
+      <created>1569752162008</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1569752162008</updated>
+    </task>
+    <task id="LOCAL-00095" summary="改axios">
+      <created>1569753353394</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1569753353394</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79118000" />
+    <option name="totallyTimeSpent" value="79777000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -690,7 +630,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="修复导航栏切换内容不变的问题，增加切换导航栏默认第一条内容" />
     <MESSAGE value="解决代码高亮问题；增加javascript(下)内容" />
     <MESSAGE value="解决代码高亮问题增加javascript(下)内容" />
     <MESSAGE value="解决代码高亮问题；&#10;增加javascript(下)内容" />
@@ -715,7 +654,8 @@
     <MESSAGE value="修改图片路径" />
     <MESSAGE value="改变assetsPublicPath项目更目录" />
     <MESSAGE value="图片地址修改到git中的static中" />
-    <option name="LAST_COMMIT_MESSAGE" value="图片地址修改到git中的static中" />
+    <MESSAGE value="改axios" />
+    <option name="LAST_COMMIT_MESSAGE" value="改axios" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/forthTry/prod.pt" />
@@ -772,33 +712,10 @@
     <entry file="file://$PROJECT_DIR$/frontend/dist/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/router/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/inner_ulb_manager.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#140#161#0" expanded="true" />
-            <element signature="e#310#344#0" expanded="true" />
-            <element signature="e#399#430#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -828,13 +745,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/static/susi.JPG">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/models.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -951,14 +861,44 @@
     <entry file="file://$PROJECT_DIR$/frontend/src/plugin/axios/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#140#161#0" expanded="true" />
+            <element signature="e#310#344#0" expanded="true" />
+            <element signature="e#399#430#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/router/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/views/pages/index/index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+        <state relative-caret-position="257">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding>
             <element signature="n#style#0;n#el-row#1;n#el-main#0;n#el-container#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#el-row#2;n#el-main#0;n#el-container#0;n#template#0;n#!!top" expanded="true" />
