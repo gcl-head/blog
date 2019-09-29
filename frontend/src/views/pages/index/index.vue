@@ -23,7 +23,7 @@ export default {
   data () {
     return {
       log: [],
-      img_url: require('../../../assets/susi.jpg') // 图片地址
+      img_url: require('/static/susi.jpg') // 图片地址
     }
   },
   created () {
