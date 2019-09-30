@@ -67,12 +67,16 @@ export default {
     window.onresize = function temp () {
       this.clientHeight = `${document.documentElement.clientHeight}`
     }
-    let p = navigator.platform
-    let win = p.indexOf('Win') === 0
-    let mac = p.indexOf('Mac') === 0
-    let x11 = (p === 'X11') || (p.indexOf('Linux') === 0)
-    if (win || mac || x11) {
-    } else { // 如果是手机端登录缩小侧边栏
+    let userAgentInfo = navigator.userAgent
+    let Agents = ['Android', 'iPhone', 'SymbianOS', 'Windows Phone', 'iPad', 'iPod']
+    let flag = true
+    for (let v = 0; v < Agents.length; v++) {
+      if (userAgentInfo.indexOf(Agents[v]) > 0) {
+        flag = false
+        break
+      }
+    }
+    if (flag === false) { // 如果是手机端登录缩小侧边栏
       this.isCollapse = true
       this.$refs.router.changeCollapse(this.isCollapse)
     }
