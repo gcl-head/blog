@@ -67,16 +67,7 @@ export default {
     window.onresize = function temp () {
       this.clientHeight = `${document.documentElement.clientHeight}`
     }
-    let userAgentInfo = navigator.userAgent
-    let Agents = ['Android', 'iPhone', 'SymbianOS', 'Windows Phone', 'iPad', 'iPod']
-    let flag = true
-    for (let v = 0; v < Agents.length; v++) {
-      if (userAgentInfo.indexOf(Agents[v]) > 0) {
-        flag = false
-        break
-      }
-    }
-    if (flag === false) { // 如果是手机端登录缩小侧边栏
+    if (`${document.documentElement.clientWidth}` < 850) { // 如果是手机端登录缩小侧边栏
       alert('phone')
       this.isCollapse = true
       this.$refs.router.changeCollapse(this.isCollapse)
