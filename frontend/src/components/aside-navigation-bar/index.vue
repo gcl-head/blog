@@ -28,6 +28,13 @@ export default {
       return this.log[0].name[0]
     }
   },
+  created () {
+    if (`${document.documentElement.clientWidth}` < 850) { // 如果是手机端登录缩小侧边栏
+      this.$nextTick(function () {
+        document.getElementById('log').style.width = '0'
+      })
+    }
+  },
   methods: {
     handleSelect (key) {
       this.$emit('clickContent', key) // 点击目录内容跳转

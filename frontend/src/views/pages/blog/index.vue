@@ -1,6 +1,6 @@
 <template>
   <el-container>
-    <el-aside id="aside">
+    <el-aside id="aside" :width="asideWidth">
       <aside-navigation-bar :log="log" @clickContent="clickContent" ref="asideBar"></aside-navigation-bar>
     </el-aside>
     <el-main>
@@ -40,7 +40,8 @@ export default {
       compiledMarkdown: '',
       markdownRefresh: true, // markdown刷新开关
       currentChoice: '', // 当前选择name
-      showComment: false // 是否显示评论栏
+      showComment: false, // 是否显示评论栏
+      asideWidth: '20rem' // 侧边栏宽度
     }
   },
   watch: {
@@ -51,6 +52,11 @@ export default {
   },
   created () {
     this.init()
+    if (`${document.documentElement.clientWidth}` < 850) { // 如果是手机端登录缩小侧边栏
+      this.$nextTick(function () {
+        this.asideWidth = '0'
+      })
+    }
   },
   methods: {
     clickContent (name) {

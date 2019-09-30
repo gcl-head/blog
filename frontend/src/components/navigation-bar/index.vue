@@ -68,9 +68,7 @@ export default {
       this.clientHeight = `${document.documentElement.clientHeight}`
     }
     if (`${document.documentElement.clientWidth}` < 850) { // 如果是手机端登录缩小侧边栏
-      alert('phone')
       this.isCollapse = true
-      this.$refs.router.changeCollapse(this.isCollapse)
     }
   },
   watch: {
