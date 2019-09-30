@@ -46,7 +46,7 @@ export default {
 <style lang="scss" scoped>
   .log{
     position: fixed;
-    width: 0;
+    width: 20rem;
     top: 70px;
     left: 0;
     bottom: 0;

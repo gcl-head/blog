@@ -1,6 +1,6 @@
 <template>
   <el-container>
-    <el-aside id="aside" width="0">
+    <el-aside id="aside">
       <aside-navigation-bar :log="log" @clickContent="clickContent" ref="asideBar"></aside-navigation-bar>
     </el-aside>
     <el-main>

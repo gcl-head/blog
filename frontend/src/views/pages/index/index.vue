@@ -5,7 +5,10 @@
         <img class="susi" src="../../../assets/susi.png">
       </el-row>
       <el-row type="flex" justify="center" style="margin-top: 10px;">
-        <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+        <span :id="$route.path + '/' + '首页'" class="leancloud_visitors" data-flag-title="首页">
+              <em class="post-meta-item-text">本站访问量 </em>
+              <i class="leancloud-visitors-count">0</i>次
+          </span>
       </el-row>
       <el-row type="flex" justify="center" style="margin-top: 120px;">
         <div style="max-width: 600px;">

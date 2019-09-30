@@ -41,7 +41,7 @@ export default {
       activeIndex: this.$route.path,
       groups: [], // 导航栏目录列表
       blogHref: '', // href
-      isCollapse: true, // 侧边栏是否收缩
+      isCollapse: false, // 侧边栏是否收缩
       isBlog: this.$route.path !== '/index', // 当前导航栏是否为博客页
       searchState: '', // 搜索状态
       searchName: '' // 搜索内容对应的文章标题
