@@ -10,7 +10,7 @@
           <!-- id 将作为查询条件 -->
           <span :id="$route.path + '/' + currentChoice" class="leancloud_visitors" :data-flag-title="currentChoice">
               <em class="post-meta-item-text">阅读量 </em>
-              <i class="leancloud-visitors-count">1000000</i>
+              <i class="leancloud-visitors-count">0</i>
           </span>
           <comments :currentChoice = currentChoice v-if="showComment"></comments>
         </el-col>
