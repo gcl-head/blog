@@ -1,11 +1,11 @@
 <template>
   <el-container>
-    <el-aside id="aside">
+    <el-aside id="aside" style="width: 0;">
       <aside-navigation-bar :log="log" @clickContent="clickContent" ref="asideBar"></aside-navigation-bar>
     </el-aside>
     <el-main>
       <el-row type="flex" justify="center">
-        <el-col :span="20">
+        <el-col style="max-width: 1300px;">
           <vue-markdown :source="compiledMarkdown" v-if="markdownRefresh" v-highlight></vue-markdown>
           <!-- id 将作为查询条件 -->
           <span :id="$route.path + '/' + currentChoice" class="leancloud_visitors" :data-flag-title="currentChoice">

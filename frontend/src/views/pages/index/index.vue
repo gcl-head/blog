@@ -8,7 +8,7 @@
         <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
       </el-row>
       <el-row type="flex" justify="center" style="margin-top: 120px;">
-        <div style="width: 50%">
+        <div style="max-width: 600px;">
           最新内容
           <hr>
           <div v-for="item in log" :key="item.name" class="new_log" @click="clickContent(item)">{{ item.name }}</div>
