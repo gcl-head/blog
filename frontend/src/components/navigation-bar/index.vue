@@ -67,6 +67,15 @@ export default {
     window.onresize = function temp () {
       this.clientHeight = `${document.documentElement.clientHeight}`
     }
+    let p = navigator.platform
+    let win = p.indexOf('Win') === 0
+    let mac = p.indexOf('Mac') === 0
+    let x11 = (p === 'X11') || (p.indexOf('Linux') === 0)
+    if (win || mac || x11) {
+    } else { // 如果是手机端登录缩小侧边栏
+      this.isCollapse = true
+      this.$refs.router.changeCollapse(this.isCollapse)
+    }
   },
   watch: {
     // 如果 `clientHeight` 发生改变，这个函数就会运行
