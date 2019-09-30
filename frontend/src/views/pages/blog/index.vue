@@ -1,6 +1,6 @@
 <template>
   <el-container>
-    <el-aside id="aside" style="width: 0;">
+    <el-aside id="aside" width="0">
       <aside-navigation-bar :log="log" @clickContent="clickContent" ref="asideBar"></aside-navigation-bar>
     </el-aside>
     <el-main>
@@ -98,7 +98,7 @@ export default {
         .then(res => {
           console.log(that.blogName)
           that.log = res.data
-          if (res.data.length === 0) {
+          if (res.data.length === 0) { // 没有目录则隐藏评论栏
             that.compiledMarkdown = ''
             that.showComment = false
             that.currentChoice = ''
