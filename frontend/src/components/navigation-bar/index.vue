@@ -77,6 +77,7 @@ export default {
       }
     }
     if (flag === false) { // 如果是手机端登录缩小侧边栏
+      alert('phone')
       this.isCollapse = true
       this.$refs.router.changeCollapse(this.isCollapse)
     }
