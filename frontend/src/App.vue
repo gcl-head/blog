@@ -9,7 +9,13 @@
 export default {
   name: 'App',
   created () {
-    if (navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)) {
+    console.log('test')
+    let p = navigator.platform
+    let win = p.indexOf('Win') === 0
+    let mac = p.indexOf('Mac') === 0
+    let x11 = (p === 'X11') || (p.indexOf('Linux') === 0)
+    if (win || mac || x11) {
+    } else {
       console.log('change')
       this.$refs.bar.changeCollapse()
     }
