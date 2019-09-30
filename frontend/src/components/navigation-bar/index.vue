@@ -107,6 +107,7 @@ export default {
         this.$refs.router.clickContent(item.name)
         return
       }
+      this.isBlog = true
       this.searchName = item.name // 想blog组件传递当前选择的文章名字
       this.$router.push({path: item.href})
     },
