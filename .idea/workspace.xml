@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbb37b67-14bc-4fd2-8d74-e5539b1694ac" name="Default Changelist" comment="" />
+    <list default="true" id="bbb37b67-14bc-4fd2-8d74-e5539b1694ac" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/src/router/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+            <state relative-caret-position="369">
+              <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -28,7 +30,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/src/router/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="342">
               <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
@@ -225,20 +227,7 @@
       <workItem from="1569900770167" duration="135000" />
       <workItem from="1569900963006" duration="76000" />
       <workItem from="1569901243059" duration="270000" />
-    </task>
-    <task id="LOCAL-00072" summary="更改axios和setting，只让域名访问">
-      <created>1568941824171</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1568941824172</updated>
-    </task>
-    <task id="LOCAL-00073" summary="增加博客内容">
-      <created>1568956897004</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1568956897004</updated>
+      <workItem from="1569924860047" duration="693000" />
     </task>
     <task id="LOCAL-00074" summary="增加博客内容">
       <created>1568971558395</created>
@@ -569,11 +558,25 @@
       <option name="project" value="LOCAL" />
       <updated>1569901396792</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="修改网页标题">
+      <created>1569924906846</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1569924906847</updated>
+    </task>
+    <task id="LOCAL-00122" summary="博客内容更新">
+      <created>1569935325138</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1569935325138</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93188000" />
+    <option name="totallyTimeSpent" value="93881000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -585,15 +588,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28372592" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28808352" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49892932" weight="0.3652876" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49892932" weight="0.36524454" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -602,7 +605,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3298647" />
       <window_info anchor="bottom" id="File Transfer" order="9" weight="0.3194589" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49892932" visible="true" weight="0.24621594" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49892932" visible="true" weight="0.24453694" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5010707" side_tool="true" weight="0.24016145" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.3298647" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -639,9 +642,9 @@
     <MESSAGE value="修复侧边栏越界bug" />
     <MESSAGE value="增加博客内容" />
     <MESSAGE value="手机端侧边栏兼容调整" />
-    <MESSAGE value="博客内容更新" />
     <MESSAGE value="修改网页标题" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改网页标题" />
+    <MESSAGE value="博客内容更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="博客内容更新" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/forthTry/prod.pt" />
@@ -884,22 +887,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/router/index.js">
+    <entry file="file://$PROJECT_DIR$/frontend/src/router/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        <state relative-caret-position="369">
+          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/router/routes.js">
+    <entry file="file://$PROJECT_DIR$/frontend/src/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        <state relative-caret-position="342">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
           <folding>
-            <element signature="e#0#45#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
