@@ -18,7 +18,7 @@ router.afterEach(async (to, from, next) => {
   if (to.meta.title) {
     document.title = to.meta.title
   } else {
-    document.title = '大头博客'
+    document.title = '大头的博客'
   }
 })
 export default router
