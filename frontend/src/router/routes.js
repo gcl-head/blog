@@ -15,7 +15,7 @@ const frameIn = [
         path: 'index',
         name: 'index',
         meta: {
-          title: '大头博客的首页'
+          title: '大头博客 - 首页'
         },
         component: index
       },
@@ -24,7 +24,7 @@ const frameIn = [
         path: 'frontend',
         name: 'frontend',
         meta: {
-          title: '大头的博客们'
+          title: '大前端 - 大头的博客们'
         },
         component: blog
       },
@@ -32,7 +32,7 @@ const frameIn = [
         path: 'algorithm',
         name: 'algorithm',
         meta: {
-          title: '大头的博客们'
+          title: '算法修炼 - 大头的博客们'
         },
         component: blog
       },
@@ -40,7 +40,7 @@ const frameIn = [
         path: 'life',
         name: 'life',
         meta: {
-          title: '大头的博客们'
+          title: '生活小记 - 大头的博客们'
         },
         component: blog
       },
@@ -48,7 +48,7 @@ const frameIn = [
         path: 'project',
         name: 'project',
         meta: {
-          title: '大头的博客们'
+          title: '项目经历 - 大头的博客们'
         },
         component: blog
       }

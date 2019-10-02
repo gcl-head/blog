@@ -39,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/src/views/pages/blog/index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="78" column="41" selection-start-line="78" selection-start-column="41" selection-end-line="78" selection-end-column="41" />
+            <state relative-caret-position="390">
+              <caret line="85" column="26" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
               <folding>
                 <element signature="n#style#0;n#el-col#0;n#el-row#0;n#el-main#0;n#el-container#0;n#template#0;n#!!top" expanded="true" />
               </folding>
@@ -118,9 +118,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="height" value="947" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -303,21 +304,9 @@
       <workItem from="1569901243059" duration="270000" />
       <workItem from="1569924860047" duration="693000" />
       <workItem from="1569935463792" duration="372000" />
-      <workItem from="1569980034535" duration="330000" />
-    </task>
-    <task id="LOCAL-00075" summary="增加博客内容">
-      <created>1568976120314</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1568976120314</updated>
-    </task>
-    <task id="LOCAL-00076" summary="增加评论功能">
-      <created>1569023777330</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1569023777330</updated>
+      <workItem from="1569980034535" duration="789000" />
+      <workItem from="1569994562670" duration="10000" />
+      <workItem from="1570011756258" duration="126000" />
     </task>
     <task id="LOCAL-00077" summary="博客内容增加">
       <created>1569024738491</created>
@@ -648,11 +637,25 @@
       <option name="project" value="LOCAL" />
       <updated>1569935665312</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="增加博客内容">
+      <created>1569981475723</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1569981475723</updated>
+    </task>
+    <task id="LOCAL-00125" summary="增加博客内容">
+      <created>1569994401703</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1569994401703</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94583000" />
+    <option name="totallyTimeSpent" value="95178000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -664,14 +667,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="947" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29668304" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30528256" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49892932" visible="true" weight="0.36524454" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49892932" weight="0.36524454" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -680,7 +684,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3298647" />
       <window_info anchor="bottom" id="File Transfer" order="9" weight="0.3194589" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49892932" weight="0.24349636" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49892932" visible="true" weight="0.24282296" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5010707" side_tool="true" weight="0.24016145" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.3298647" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -714,12 +718,12 @@
     <MESSAGE value="修复搜索跳转不限时侧边栏切换按钮的bug" />
     <MESSAGE value="修改默认阅读量" />
     <MESSAGE value="修复侧边栏越界bug" />
-    <MESSAGE value="增加博客内容" />
     <MESSAGE value="手机端侧边栏兼容调整" />
     <MESSAGE value="修改网页标题" />
     <MESSAGE value="博客内容更新" />
     <MESSAGE value="增加最后修改时间" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加最后修改时间" />
+    <MESSAGE value="增加博客内容" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加博客内容" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/forthTry/prod.pt" />
@@ -974,8 +978,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/views/pages/blog/index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="78" column="41" selection-start-line="78" selection-start-column="41" selection-end-line="78" selection-end-column="41" />
+        <state relative-caret-position="390">
+          <caret line="85" column="26" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
           <folding>
             <element signature="n#style#0;n#el-col#0;n#el-row#0;n#el-main#0;n#el-container#0;n#template#0;n#!!top" expanded="true" />
           </folding>
