@@ -8,7 +8,7 @@ import Vuex from 'vuex' // vuex
 import store from '@/store/index'
 // Element
 // import ElementUI from 'element-ui'
-import 'element-ui/lib/theme-chalk/index.css'
+// import 'element-ui/lib/theme-chalk/index.css'
 // 代码高亮
 import hljs from 'highlight.js'
 import 'highlight.js/styles/googlecode.css'
