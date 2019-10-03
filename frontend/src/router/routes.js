@@ -24,9 +24,9 @@ function lazyLoadView (AsyncView) {
   })
 }
 
-const nav = () => lazyLoadView(import('@/components/navigation-bar').then())
-const blog = () => lazyLoadView(import('@/views/pages/blog').then())
-const index = () => lazyLoadView(import('@/views/pages/index').then())
+const nav = () => lazyLoadView(import('@/components/navigation-bar'))
+const blog = () => lazyLoadView(import('@/views/pages/blog'))
+const index = () => lazyLoadView(import('@/views/pages/index'))
 // 主框架
 const frameIn = [
   {
