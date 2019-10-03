@@ -1,11 +1,14 @@
 <template>
   <div>
-    <h1>Error!</h1>
-    <h1>Please try again later!</h1>
+    <h1>网络问题</h1>
+    <h1>请稍后重试</h1>
   </div>
 </template>
 <script>
 export default {
-  name: 'RouteLoading'
+  name: 'RouteLoading',
+  created () {
+    this.$loading.close()
+  }
 }
 </script>
