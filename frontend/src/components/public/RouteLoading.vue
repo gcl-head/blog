@@ -5,7 +5,7 @@
 export default {
   name: 'RouteLoading',
   created () {
-    const loading = this.$loading({
+    this.$loading({
       lock: true,
       text: 'Loading',
       spinner: 'el-icon-loading',
