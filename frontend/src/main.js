@@ -7,7 +7,7 @@ import Vuex from 'vuex' // vuex
 // store
 import store from '@/store/index'
 // Element
-import ElementUI from 'element-ui'
+// import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 // 代码高亮
 import hljs from 'highlight.js'
@@ -26,7 +26,7 @@ Vue.component('aside-navigation-bar', () => import('@/components/aside-navigatio
 
 /* eslint-disable no-new */
 Vue.use(Vuex)
-Vue.use(ElementUI)
+// Vue.use(ElementUI)
 new Vue({
   router,
   store,
