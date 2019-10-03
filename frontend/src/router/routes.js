@@ -1,8 +1,10 @@
-import nav from '@/components/navigation-bar'
-import blog from '@/views/pages/blog'
-import index from '@/views/pages/index'
+// import nav from '@/components/navigation-bar'
+// import blog from '@/views/pages/blog'
+// import index from '@/views/pages/index'
 // 简化加载路径
-// const _import = file => () => import('@/views/' + file)
+const nav = () => import('@/components/navigation-bar')
+const blog = () => import('@/views/pages/blog')
+const index = () => import('@/views/pages/index')
 // 主框架
 const frameIn = [
   {
