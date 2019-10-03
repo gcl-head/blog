@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbb37b67-14bc-4fd2-8d74-e5539b1694ac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/public/RouteLoading.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/public/RouteLoading.vue" afterDir="false" />
-    </list>
+    <list default="true" id="bbb37b67-14bc-4fd2-8d74-e5539b1694ac" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -327,14 +324,7 @@
       <workItem from="1570011756258" duration="126000" />
       <workItem from="1570069739149" duration="144000" />
       <workItem from="1570070120967" duration="2824000" />
-      <workItem from="1570084254193" duration="294000" />
-    </task>
-    <task id="LOCAL-00091" summary="图片地址修改到git中的static中">
-      <created>1569751872842</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1569751872842</updated>
+      <workItem from="1570084254193" duration="389000" />
     </task>
     <task id="LOCAL-00092" summary="图片地址修改到git中的static中">
       <created>1569752027090</created>
@@ -672,11 +662,18 @@
       <option name="project" value="LOCAL" />
       <updated>1570076690694</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="loading and error">
+      <created>1570084727413</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1570084727414</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107497000" />
+    <option name="totallyTimeSpent" value="107592000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -689,7 +686,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26412776" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

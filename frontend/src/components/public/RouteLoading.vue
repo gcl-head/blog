@@ -1,5 +1,5 @@
 <template>
-  <h1>加载中...</h1>
+  <br>
 </template>
 <script>
 export default {
@@ -9,7 +9,7 @@ export default {
       lock: true,
       text: 'Loading',
       spinner: 'el-icon-loading',
-      background: 'rgba(255, 255, 255, 1)'
+      background: 'rgba(0, 0, 0, 0.7)'
     })
   }
 }
