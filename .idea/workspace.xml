@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbb37b67-14bc-4fd2-8d74-e5539b1694ac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bbb37b67-14bc-4fd2-8d74-e5539b1694ac" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -367,13 +365,7 @@
       <workItem from="1570118579164" duration="117000" />
       <workItem from="1570347017851" duration="1497000" />
       <workItem from="1570349913037" duration="12000" />
-    </task>
-    <task id="LOCAL-00097" summary="改axios">
-      <created>1569754429837</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1569754429837</updated>
+      <workItem from="1570351046436" duration="199000" />
     </task>
     <task id="LOCAL-00098" summary="侧边栏修改">
       <created>1569757076327</created>
@@ -711,11 +703,18 @@
       <option name="project" value="LOCAL" />
       <updated>1570349685186</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary="README美化">
+      <created>1570351062011</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1570351062012</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110523000" />
+    <option name="totallyTimeSpent" value="110722000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -729,7 +728,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3340471" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33832976" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -807,7 +806,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="修改图片路径" />
     <MESSAGE value="改变assetsPublicPath项目更目录" />
     <MESSAGE value="图片地址修改到git中的static中" />
     <MESSAGE value="改axios" />
@@ -832,7 +830,8 @@
     <MESSAGE value="loading and error" />
     <MESSAGE value="增加网页圆形logo" />
     <MESSAGE value="博客内容更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="博客内容更新" />
+    <MESSAGE value="README美化" />
+    <option name="LAST_COMMIT_MESSAGE" value="README美化" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/forthTry/prod.pt" />
