@@ -5,7 +5,7 @@ import re  # 正则
 
 def get_new_blog(request):
     # 获取最新15条blog
-    re = list(models.BlogItem.objects.all().values('href', 'name'))[::-1][:15]
+    re = list(models.BlogContent.objects.all().values('href', 'name').order_by('last_edit_timestamp'))[::-1][:15]
     return HttpResponse(json.dumps(re))
 
 def get_blog(request):
