@@ -17,13 +17,14 @@ def get_blog(request):
         # 获取博客目录
         # 性能待优化！
         href = json.loads(request.body.decode('utf-8'))['blogHref']
-        item = list(models.BlogItem.objects.filter(href=href).order_by('group_order').values('href', 'title', 'name'))
+        item = list(models.BlogItem.objects.filter(href=href).order_by('item_order', 'content_order')
+                    .values('title', 'name'))
         chosenItem = []  # 数据库中当前导航类别的blog
         chosenTitle = []  # 数据中当前导航类别的大标题
         for i in item:
             chosenItem.append(i)
             chosenTitle.append(i['title'])
-        titles = list(set(chosenTitle))  # 去重后的chosenTitle
+        titles = sorted(list(set(chosenTitle)), key=chosenTitle.index)  # 去重排序后的chosenTitle
         re = []
         for title in titles:
             name = []
@@ -42,7 +43,6 @@ def get_blog_content(request):
         # 获取博客文字内容
         href = json.loads(request.body.decode('utf-8'))['blogHref']
         name = json.loads(request.body.decode('utf-8'))['blogName']
-        print(href, name)
         item = models.BlogContent.objects.get(href=href, name=name)
         re = {
             'text': item.text,  # 博客内容

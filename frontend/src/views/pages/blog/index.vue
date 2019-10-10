@@ -103,7 +103,7 @@ export default {
         blogHref: that.$route.path
       })
         .then(res => {
-          console.log(that.blogName)
+          // console.log(that.blogName)
           that.log = res.data
           if (res.data.length === 0) { // 没有目录则隐藏评论栏
             that.compiledMarkdown = ''

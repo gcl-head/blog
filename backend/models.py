@@ -11,7 +11,8 @@ class BlogItem(models.Model):
     href = models.CharField(max_length=10, null=True)
     title = models.CharField(max_length=25, null=True)  # 博客大标题
     name = models.CharField(max_length=25, null=True)  # 博客小标题
-    group_order = models.IntegerField(default=0)  # 菜单顺序
+    item_order = models.IntegerField(default=0)  # 菜单顺序
+    content_order = models.IntegerField(default=0)  # 子菜单顺序
 
 
 class BlogContent(models.Model):
