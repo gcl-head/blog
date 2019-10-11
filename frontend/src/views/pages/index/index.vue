@@ -11,12 +11,12 @@
           </span>
       </el-row>
       <el-row type="flex" justify="center" style="margin-top: 120px;">
-        <div style="max-width: 600px;">
+        <ul style="max-width: 600px;">
           最新内容
           <hr>
-          <div v-for="item in log" :key="item.name" class="new_log" @click="clickContent(item)">{{ item.name }}</div>
+          <li v-for="item in log" :key="item.name" class="new_log" @click="clickContent(item)">{{ item.name }}</li>
           <comments></comments>
-        </div>
+        </ul>
       </el-row>
     </el-main>
   </el-container>
