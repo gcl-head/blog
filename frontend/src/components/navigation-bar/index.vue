@@ -1,5 +1,5 @@
 <template>
-  <el-container ref="homePage">
+  <el-container ref="homepage">
     <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
     <el-header style="min-width: 650px;">
       <el-menu :default-active="activeIndex" mode="horizontal" @select="menuSelect" router class="header-all">
@@ -28,7 +28,7 @@
         </div>
       </el-menu>
     </el-header>
-    <router-view ref="router" @search="searchSelect" @clear="clearBlogName" :blogName="searchName"/>
+    <router-view ref="router" @search="searchSelect" @clear="clearBlogName"/>
   </el-container>
 </template>
 <script>
@@ -79,7 +79,7 @@ export default {
   },
   methods: {
     changeFixed (clientHeight) {
-      this.$refs.homePage.$el.style.height = clientHeight - 20 + 'px' // 根据可视区域高度改变el-container高度使header时钟在页面上方浮动
+      this.$refs.homepage.$el.style.height = clientHeight - 20 + 'px' // 根据可视区域高度改变el-container高度使header时钟在页面上方浮动
     },
     changeCollapse () {
       // 点击收缩侧边栏图标
@@ -106,13 +106,9 @@ export default {
     },
     searchSelect (item) {
       // 选择搜索框下拉列表结果
-      if (this.$route.path === item.href) {
-        this.$refs.router.clickContent(item.name)
-        return
-      }
       this.isBlog = true
       this.searchName = item.name // 想blog组件传递当前选择的文章名字
-      this.$router.push({path: item.href})
+      this.$router.push({path: item.href + '/' + this.searchName})
     },
     clearBlogName () {
       this.searchName = '' // 清空当前选择文章名字

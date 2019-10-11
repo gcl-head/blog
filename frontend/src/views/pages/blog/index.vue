@@ -1,18 +1,18 @@
 <template>
   <el-container>
     <el-aside id="aside" :width="asideWidth">
-      <aside-navigation-bar :log="log" @clickContent="clickContent" ref="asideBar"></aside-navigation-bar>
+      <aside-navigation-bar :log="log" :activeIndex="activeIndex" @clickContent="clickContent" ref="aside_bar"></aside-navigation-bar>
     </el-aside>
     <el-main>
       <el-row type="flex" justify="center">
         <el-col style="max-width: 1300px;">
           <vue-markdown :source="compiledMarkdown" v-if="markdownRefresh" v-highlight></vue-markdown>
           <!-- id 将作为查询条件 -->
-          <span :id="$route.path + '/' + currentChoice" class="leancloud_visitors" :data-flag-title="currentChoice">
+          <span :id="$route.path" class="leancloud_visitors" :data-flag-title="$route.params.name">
               <em class="post-meta-item-text">阅读量 </em>
               <i class="leancloud-visitors-count">0</i>
           </span>
-          <comments :currentChoice = currentChoice v-if="showComment"></comments>
+          <comments v-if="showComment"></comments>
         </el-col>
       </el-row>
     </el-main>
@@ -39,9 +39,9 @@ export default {
       log: [], // 博客侧边栏目录
       compiledMarkdown: '',
       markdownRefresh: true, // markdown刷新开关
-      currentChoice: '', // 当前选择name
       showComment: false, // 是否显示评论栏
-      asideWidth: '20rem' // 侧边栏宽度
+      asideWidth: '20rem', // 侧边栏宽度
+      activeIndex: '' // 当前选择name
     }
   },
   watch: {
@@ -59,7 +59,7 @@ export default {
     }
   },
   methods: {
-    clickContent (name) {
+    clickContent () {
       // 选择目录
       const loading = this.$loading({
         lock: true,
@@ -69,8 +69,8 @@ export default {
       })
       const that = this
       getBlogContent({
-        blogHref: that.$route.path,
-        blogName: name
+        blogHref: '/' + that.$route.params.href,
+        blogName: that.$route.params.name
       })
         .then(res => {
           that.markdownRefresh = false
@@ -81,9 +81,9 @@ export default {
           that.$nextTick(function () {
             that.markdownRefresh = true
           })
-          that.$refs.asideBar.activeIndex = name
+          that.activeIndex = that.$route.path
           this.showComment = false
-          this.currentChoice = name
+          // this.currentChoice = that.$route.params.name
           this.$nextTick(function () {
             this.showComment = true
           })
@@ -91,6 +91,7 @@ export default {
         })
     },
     init () {
+      console.log(this.$route.params.href)
       // 导航栏切换刷新页面
       const loading = this.$loading({
         lock: true,
@@ -100,27 +101,27 @@ export default {
       })
       const that = this
       getBlogItem({
-        blogHref: that.$route.path
+        blogHref: '/' + that.$route.params.href
       })
         .then(res => {
-          // console.log(that.blogName)
+          console.log(res.data)
           that.log = res.data
           if (res.data.length === 0) { // 没有目录则隐藏评论栏
             that.compiledMarkdown = ''
             that.showComment = false
-            that.currentChoice = ''
-          } else if (that.blogName) { // 有选择内容跳转到选择内容
-            that.clickContent(that.blogName)
+          } else if (that.$route.params.name !== undefined) { // 有选择内容跳转到选择内容
+            that.clickContent(that.$route.params.name)
             that.$emit('clear')
           } else { // 否则默认第一条
-            that.clickContent(res.data[0].name[0])
+            console.log('test')
+            this.$router.push({path: that.$route.params.href + '/' + res.data[0].name[0]})
           }
           loading.close()
         })
     },
     changeCollapse (isCollapse) {
       // 点击收缩侧边栏图标
-      this.$refs.asideBar.changeCollapse(isCollapse)
+      this.$refs.aside_bar.changeCollapse(isCollapse)
       if (isCollapse) document.getElementById('aside').style.width = '0'
       else document.getElementById('aside').style.width = '20rem'
     }

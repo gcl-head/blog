@@ -45,34 +45,18 @@ const frameIn = [
       },
       // 博客页面
       {
-        path: 'frontend',
-        name: 'frontend',
+        path: ':href',
+        name: 'blog',
         meta: {
-          title: '大前端 - 大头的博客们'
+          title: '大头的博客们'
         },
         component: blog
       },
       {
-        path: 'algorithm',
-        name: 'algorithm',
+        path: ':href/:name',
+        name: 'blog',
         meta: {
-          title: '算法修炼 - 大头的博客们'
-        },
-        component: blog
-      },
-      {
-        path: 'life',
-        name: 'life',
-        meta: {
-          title: '生活小记 - 大头的博客们'
-        },
-        component: blog
-      },
-      {
-        path: 'project',
-        name: 'project',
-        meta: {
-          title: '项目经历 - 大头的博客们'
+          title: '大头的博客们'
         },
         component: blog
       }

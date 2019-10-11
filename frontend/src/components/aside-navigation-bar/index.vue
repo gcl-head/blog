@@ -1,9 +1,9 @@
 <template>
   <div class="log" id="log">
-    <el-menu :collapse="isCollapse" @select="handleSelect" text-color="#2c3e50" active-text-color="#3eaf7c" :default-active="activeIndex">
+    <el-menu :collapse="isCollapse" text-color="#2c3e50" active-text-color="#3eaf7c" :default-active="activeIndex" router>
       <div v-for="item in log" :key="item.title" class="log-links">
         <p class="log-header">{{ item.title }}</p>
-        <el-menu-item :index="iitem" v-for="iitem in item.name" :key="iitem">{{ iitem }}</el-menu-item>
+        <el-menu-item :index="'/'+$route.params.href+'/'+iitem" v-for="iitem in item.name" :key="iitem">{{ iitem }}</el-menu-item>
       </div>
     </el-menu>
   </div>
@@ -14,12 +14,14 @@ export default {
   props: {
     log: {
       default: []
+    },
+    activeIndex: {
+      default: '' // 当前选中index
     }
   },
   data () {
     return {
-      isCollapse: false,
-      activeIndex: '' // 当前选中index
+      isCollapse: false
     }
   },
   computed: {
@@ -36,9 +38,6 @@ export default {
     }
   },
   methods: {
-    handleSelect (key) {
-      this.$emit('clickContent', key) // 点击目录内容跳转
-    },
     changeCollapse (isCollapse) {
       this.isCollapse = isCollapse
       if (isCollapse) {

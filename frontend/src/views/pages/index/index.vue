@@ -5,7 +5,7 @@
         <img class="susi" src="../../../assets/susi.png">
       </el-row>
       <el-row type="flex" justify="center" style="margin-top: 10px;">
-        <span :id="$route.path + '/' + '首页'" class="leancloud_visitors" data-flag-title="首页">
+        <span :id="$route.path" class="leancloud_visitors" data-flag-title="首页">
               <em class="post-meta-item-text">本站访问量 </em>
               <i class="leancloud-visitors-count">0</i>次
           </span>
@@ -15,7 +15,7 @@
           最新内容
           <hr>
           <div v-for="item in log" :key="item.name" class="new_log" @click="clickContent(item)">{{ item.name }}</div>
-          <comments currentChoice = "首页"></comments>
+          <comments></comments>
         </div>
       </el-row>
     </el-main>
