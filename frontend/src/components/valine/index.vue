@@ -26,7 +26,7 @@ export default {
         notify: true,
         verify: true,
         avatar: 'retro',
-        path: that.$route.path + '/' + that.currentChoice,
+        path: that.$route.path,
         placeholder: '欢迎留言与我分享您的想法...',
         visitor: true // 阅读量统计
       })

@@ -46,8 +46,7 @@ export default {
   },
   watch: {
     '$route' () { // 监听路由变化
-      let that = this
-      that.init()
+      this.init()
     }
   },
   created () {
@@ -91,7 +90,6 @@ export default {
         })
     },
     init () {
-      console.log(this.$route.params.href)
       // 导航栏切换刷新页面
       const loading = this.$loading({
         lock: true,
@@ -104,7 +102,6 @@ export default {
         blogHref: '/' + that.$route.params.href
       })
         .then(res => {
-          console.log(res.data)
           that.log = res.data
           if (res.data.length === 0) { // 没有目录则隐藏评论栏
             that.compiledMarkdown = ''
@@ -113,7 +110,6 @@ export default {
             that.clickContent(that.$route.params.name)
             that.$emit('clear')
           } else { // 否则默认第一条
-            console.log('test')
             this.$router.push({path: that.$route.params.href + '/' + res.data[0].name[0]})
           }
           loading.close()
