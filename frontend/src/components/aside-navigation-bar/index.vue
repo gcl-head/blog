@@ -2,8 +2,12 @@
   <div class="log" id="log">
     <el-menu :collapse="isCollapse" text-color="#2c3e50" active-text-color="#3eaf7c" :default-active="activeIndex" router>
       <div v-for="item in log" :key="item.title" class="log-links">
-        <p class="log-header">{{ item.title }}</p>
-        <el-menu-item :index="'/'+$route.params.href+'/'+iitem" v-for="iitem in item.name" :key="iitem">{{ iitem }}</el-menu-item>
+        <el-submenu :index="item.title">
+          <template slot="title"  class="log-header">
+            <span>{{ item.title }}</span>
+          </template>
+          <el-menu-item :index="'/'+$route.params.href+'/'+iitem" v-for="iitem in item.name" :key="iitem">{{ iitem }}</el-menu-item>
+        </el-submenu>
       </div>
     </el-menu>
   </div>
