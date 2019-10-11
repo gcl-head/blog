@@ -56,7 +56,7 @@ def search(request):
     # 搜索博客文字内容并返回前5条
     content = request.body.decode('utf-8')  # 搜索框内容
     print(content)
-    result = models.BlogContent.objects.filter(text__icontains=content)[:5]  # 搜索结果前五条
+    result = models.BlogContent.objects.order_by('last_edit_timestamp').filter(text__icontains=content)[:5]  # 搜索结果前五条
     res = []
     for r in result:
         position = re.search(content, r.text, re.I).span()[0]  # 匹配位置
