@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbb37b67-14bc-4fd2-8d74-e5539b1694ac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/backend/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +70,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/backend/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
+            <state relative-caret-position="249">
               <caret line="58" column="40" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
@@ -426,28 +426,7 @@
       <workItem from="1570746197877" duration="1604000" />
       <workItem from="1570748026922" duration="28000" />
       <workItem from="1570759861175" duration="4987000" />
-      <workItem from="1570767209050" duration="938000" />
-    </task>
-    <task id="LOCAL-00109" summary="手机端侧边栏兼容调整">
-      <created>1569842823800</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1569842823801</updated>
-    </task>
-    <task id="LOCAL-00110" summary="手机端侧边栏兼容调整">
-      <created>1569843087575</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1569843087575</updated>
-    </task>
-    <task id="LOCAL-00111" summary="手机端侧边栏兼容调整">
-      <created>1569843399326</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1569843399327</updated>
+      <workItem from="1570767209050" duration="1377000" />
     </task>
     <task id="LOCAL-00112" summary="手机端侧边栏兼容调整">
       <created>1569844101718</created>
@@ -771,11 +750,32 @@
       <option name="project" value="LOCAL" />
       <updated>1570768616524</updated>
     </task>
-    <option name="localTasksCounter" value="158" />
+    <task id="LOCAL-00158" summary="搜索内容有限度根据最后编辑时间">
+      <created>1570768722915</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1570768722915</updated>
+    </task>
+    <task id="LOCAL-00159" summary="博客删除">
+      <created>1570768941997</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1570768941997</updated>
+    </task>
+    <task id="LOCAL-00160" summary="博客更新">
+      <created>1570769101946</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1570769101946</updated>
+    </task>
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121250000" />
+    <option name="totallyTimeSpent" value="121689000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -788,14 +788,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30406854" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30406854" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.498394" weight="0.36326942" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.498394" visible="true" weight="0.36326942" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -804,7 +803,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.62159437" />
       <window_info anchor="bottom" id="File Transfer" order="9" weight="0.3194589" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.498394" visible="true" weight="0.29465187" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.498394" weight="0.29465187" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.501606" side_tool="true" weight="0.36326942" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.3298647" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -868,9 +867,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="axios请求地址改为https" />
-    <MESSAGE value="增加首页评论区" />
-    <MESSAGE value="修改页面宽度&amp;导航栏收缩bug" />
     <MESSAGE value="修复搜索跳转不限时侧边栏切换按钮的bug" />
     <MESSAGE value="修改默认阅读量" />
     <MESSAGE value="修复侧边栏越界bug" />
@@ -893,7 +889,10 @@
     <MESSAGE value="增加博客侧边栏菜单显示顺序" />
     <MESSAGE value="超级大改版，增加路由变化，方便查询" />
     <MESSAGE value="增加子菜单" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加子菜单" />
+    <MESSAGE value="搜索内容有限度根据最后编辑时间" />
+    <MESSAGE value="博客删除" />
+    <MESSAGE value="博客更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="博客更新" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/forthTry/prod.pt" />
@@ -1201,7 +1200,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
+        <state relative-caret-position="249">
           <caret line="58" column="40" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
