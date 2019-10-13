@@ -39,7 +39,7 @@ const frameIn = [
         path: 'index',
         name: 'index',
         meta: {
-          title: '大头博客 - 首页'
+          title: '首页-大头博客'
         },
         component: index
       },
