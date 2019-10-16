@@ -79,7 +79,7 @@ export default {
   },
   methods: {
     changeFixed (clientHeight) {
-      this.$refs.homepage.$el.style.height = clientHeight - 20 + 'px' // 根据可视区域高度改变el-container高度使header时钟在页面上方浮动
+      this.$refs.homepage.$el.style.height = clientHeight - 20 + 'px' // 根据可视区域高度改变el-container高度使header始终在页面上方浮动
     },
     changeCollapse () {
       // 点击收缩侧边栏图标
