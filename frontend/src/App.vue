@@ -7,10 +7,7 @@
 
 <script>
 export default {
-  name: 'App',
-  created () {
-    document.body.addEventListener('touchstart', function () {})
-  }
+  name: 'App'
 }
 </script>
 <style>
