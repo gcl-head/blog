@@ -9,7 +9,7 @@
 export default {
   name: 'App',
   created () {
-    document.body.addEventListener('touchstart', function() {})
+    document.body.addEventListener('touchstart', function () {})
   }
 }
 </script>
