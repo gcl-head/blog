@@ -2,7 +2,7 @@
   <el-container>
     <el-main>
       <el-row type="flex" justify="center">
-        <img class="susi" src="../../../assets/susi.png">
+        <img :class="img_class" :src="img_src" v-on:click="hideImg">
       </el-row>
       <el-row type="flex" justify="center" style="margin-top: 10px;">
         <span :id="$route.path" class="leancloud_visitors" data-flag-title="首页">
@@ -24,10 +24,14 @@
 <script>
 import { getNewBlog } from '@/api/get_blog'
 import comments from '@/components/valine'
+import susi from '../../../assets/susi.png'
+import alligator from '../../../assets/alligator.png'
 export default {
   data () {
     return {
-      log: []
+      log: [],
+      img_class: 'susi', // 图片类
+      img_src: susi // 图片src
     }
   },
   components: {
@@ -50,6 +54,14 @@ export default {
   methods: {
     clickContent (item) {
       this.$emit('search', item) // 上传给外层搜索组件
+    },
+    hideImg () {
+      this.img_class = 'no_susi'
+      setTimeout(this.changeImg, 500)
+    },
+    changeImg () {
+      this.img_src = this.img_src === susi ? alligator : susi
+      this.img_class = 'susi'
     }
   }
 }
@@ -59,6 +71,19 @@ export default {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    z-index: 1;
+    transition: 0.5s;
+  }
+  .susi:hover{
+    transform: scale(1.5);
+  }
+  .no_susi{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    z-index: 1;
+    transform: rotateY(90deg);
+    transition: 0.5s;
   }
   .new_log{
     color: #3eaf7c;
