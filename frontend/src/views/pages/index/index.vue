@@ -74,6 +74,9 @@ export default {
     z-index: 1;
     transition: 0.5s;
   }
+  .susi:hover{
+    transform: scale(1.5);
+  }
   .no_susi{
     width: 200px;
     height: 200px;
