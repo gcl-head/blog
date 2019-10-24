@@ -38,7 +38,7 @@ export default {
   data () {
     return {
       clientHeight: '', // 浏览器可视区域高度
-      activeIndex: this.$route.path,
+      activeIndex: '/' + this.$route.params.href,
       groups: [], // 导航栏目录列表
       blogHref: '', // href
       isCollapse: false, // 侧边栏是否收缩
