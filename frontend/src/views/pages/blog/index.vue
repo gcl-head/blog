@@ -107,10 +107,10 @@ export default {
             that.compiledMarkdown = ''
             that.showComment = false
           } else if (that.$route.params.name !== undefined) { // 有选择内容跳转到选择内容
-            that.clickContent(that.$route.params.name)
+            that.clickContent()
             that.$emit('clear')
           } else { // 否则默认第一条
-            this.$router.push({path: that.$route.params.href + '/' + res.data[0].name[0]})
+            this.$router.push({path: '/' + that.$route.params.href + '/' + res.data[0].name[0]})
           }
           loading.close()
         })
