@@ -29,6 +29,9 @@
       </el-menu>
     </el-header>
     <router-view ref="router" @search="searchSelect" @clear="clearBlogName"/>
+    <el-row type="flex" class="row-bg" justify="center">
+      <a href="http://www.beian.miit.gov.cn/">沪ICP备19034634号-1</a>
+    </el-row>
   </el-container>
 </template>
 <script>
