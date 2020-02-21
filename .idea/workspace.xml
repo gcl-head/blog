@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbb37b67-14bc-4fd2-8d74-e5539b1694ac" name="Default Changelist" comment="修复公式显示bug">
-      <change beforePath="$PROJECT_DIR$/.idea/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="bbb37b67-14bc-4fd2-8d74-e5539b1694ac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/android.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/navigation-bar/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/navigation-bar/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forthTry/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/forthTry/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forthTry/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/forthTry/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +15,13 @@
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -72,14 +80,14 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/frontend/static" />
       <recent name="$PROJECT_DIR$/frontend/src/assets" />
       <recent name="$PROJECT_DIR$/frontend/src/views/pages/index" />
       <recent name="$PROJECT_DIR$/frontend/src/store" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/frontend" />
     </key>
   </component>
   <component name="RunManager">
@@ -100,7 +108,7 @@
       <option name="port" value="8000" />
       <option name="host" value="" />
       <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="http://127.0.0.1:8000/" />
+      <option name="browserUrl" value="" />
       <option name="runTestServer" value="false" />
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
@@ -198,14 +206,8 @@
       <workItem from="1571987579199" duration="3544000" />
       <workItem from="1582194383361" duration="1204000" />
       <workItem from="1582195597190" duration="519000" />
-      <workItem from="1582196127482" duration="2991000" />
-    </task>
-    <task id="LOCAL-00138" summary="loading and error">
-      <created>1570075671334</created>
-      <option name="number" value="00138" />
-      <option name="presentableId" value="LOCAL-00138" />
-      <option name="project" value="LOCAL" />
-      <updated>1570075671334</updated>
+      <workItem from="1582196127482" duration="3647000" />
+      <workItem from="1582275726932" duration="6129000" />
     </task>
     <task id="LOCAL-00139" summary="loading and error">
       <created>1570076690694</created>
@@ -543,7 +545,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571911625577</updated>
     </task>
-    <option name="localTasksCounter" value="187" />
+    <task id="LOCAL-00187" summary="windows试用&amp;增加备案号">
+      <created>1582199153933</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1582199153933</updated>
+    </task>
+    <option name="localTasksCounter" value="188" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -587,7 +596,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="增加最后修改时间" />
     <MESSAGE value="增加博客内容" />
     <MESSAGE value="vendor 文件优化" />
     <MESSAGE value="修改gitignore" />
@@ -612,7 +620,8 @@
     <MESSAGE value="博客更新" />
     <MESSAGE value="修复顶栏选中index刷新bug" />
     <MESSAGE value="修复公式显示bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复公式显示bug" />
+    <MESSAGE value="windows试用&amp;增加备案号" />
+    <option name="LAST_COMMIT_MESSAGE" value="windows试用&amp;增加备案号" />
   </component>
   <component name="WindowStateProjectService">
     <state x="352" y="10" key="#ESLint" timestamp="1582194730638">
@@ -623,35 +632,35 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2481" y="0" width="815" height="1040" key="#blog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582198236663" />
-    <state x="2334" y="149" width="1122" height="814" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582196574157">
+    <state x="2334" y="149" width="1122" height="814" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582282705841">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2334" y="149" width="1122" height="814" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582196574157" />
-    <state x="2321" y="0" key="CommitChangelistDialog2" timestamp="1582196742518">
+    <state x="2334" y="149" width="1122" height="814" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582282705841" />
+    <state x="2321" y="0" key="CommitChangelistDialog2" timestamp="1582199153003">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2321" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582196742518" />
+    <state x="2321" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582199153003" />
     <state x="2560" y="139" key="FileChooserDialogImpl" timestamp="1582196892142">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="139" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582194726769" />
     <state x="2560" y="139" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582196892142" />
-    <state width="1855" height="219" key="GridCell.Tab.0.bottom" timestamp="1582199118147">
+    <state width="1855" height="219" key="GridCell.Tab.0.bottom" timestamp="1582282861015">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1855" height="219" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582199118147" />
-    <state width="1855" height="219" key="GridCell.Tab.0.center" timestamp="1582199118146">
+    <state width="1855" height="219" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582282861015" />
+    <state width="1855" height="219" key="GridCell.Tab.0.center" timestamp="1582282861014">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1855" height="219" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582199118146" />
-    <state width="1855" height="219" key="GridCell.Tab.0.left" timestamp="1582199118146">
+    <state width="1855" height="219" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582282861014" />
+    <state width="1855" height="219" key="GridCell.Tab.0.left" timestamp="1582282861014">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1855" height="219" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582199118146" />
-    <state width="1855" height="219" key="GridCell.Tab.0.right" timestamp="1582199118147">
+    <state width="1855" height="219" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582282861014" />
+    <state width="1855" height="219" key="GridCell.Tab.0.right" timestamp="1582282861014">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1855" height="219" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582199118147" />
+    <state width="1855" height="219" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582282861014" />
     <state x="2030" y="0" key="SettingsEditor" timestamp="1582198289006">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

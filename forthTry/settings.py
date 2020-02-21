@@ -25,7 +25,7 @@ SECRET_KEY = '^5d4^31s-=x15=v4v2==*610fmaunkkixc41zg#icgq^_aftup'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'bighead.net.cn']
+ALLOWED_HOSTS = ['127.0.0.1', 'bighead.net.cn', '10.0.2.2']
 
 
 # Application definition

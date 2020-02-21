@@ -17,6 +17,7 @@ from django.contrib import admin
 from django.conf.urls import include, url
 from django.views.generic import TemplateView
 from backend import views
+from backend import android
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
@@ -24,5 +25,7 @@ urlpatterns = [
     url(r'^new_blog/', views.get_new_blog),
     url(r'^blog/', views.get_blog),
     url(r'^content/', views.get_blog_content),
-    url(r'^search/', views.search)  # 搜索接口
+    url(r'^search/', views.search),  # 搜索接口
+
+    url(r'^android/', android.android_test)  # android连接测试接口
 ]
