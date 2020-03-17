@@ -6,7 +6,7 @@
         <div class="header-left">
           <i class="el-icon-s-operation icon" @click="changeCollapse" v-if="isBlog"></i>
           <el-menu-item index="/index" style="font-size: 20px;display: inline;">
-              大头博客
+              大头的家
           </el-menu-item>
         </div>
         <div class="header-right">
@@ -43,7 +43,7 @@ export default {
   data () {
     return {
       clientHeight: '', // 浏览器可视区域高度
-      activeIndex: '/' + this.$route.params.href,
+      activeIndex: '/index', // 导航栏初始选中首页
       groups: [], // 导航栏目录列表
       blogHref: '', // href
       isCollapse: false, // 侧边栏是否收缩
@@ -59,6 +59,12 @@ export default {
       spinner: 'el-icon-loading',
       background: 'rgba(0, 0, 0, 0.7)'
     })
+    // 进入网页时初始化导航栏选中状态
+    if (this.$route.params.href !== undefined) {
+      this.activeIndex = '/' + this.$route.params.href
+    } else {
+      this.activeIndex = '/index'
+    }
     let that = this
     getBlogGroup()
       .then(res => {
@@ -97,6 +103,7 @@ export default {
       }
     },
     menuSelect (index) {
+      this.activeIndex = '/index'
       if (index === '/index') this.isBlog = false // 是否隐藏收缩侧边栏图标
       else this.isBlog = true
     },
@@ -113,6 +120,7 @@ export default {
       // 选择搜索框下拉列表结果
       this.isBlog = true
       this.searchName = item.name // 想blog组件传递当前选择的文章名字
+      this.activeIndex = item.href // 修改导航栏选中状态
       this.$router.push({path: item.href + '/' + this.searchName})
     },
     clearBlogName () {

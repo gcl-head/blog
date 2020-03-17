@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbb37b67-14bc-4fd2-8d74-e5539b1694ac" name="Default Changelist" comment="安卓后端测试接口">
+    <list default="true" id="bbb37b67-14bc-4fd2-8d74-e5539b1694ac" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/navigation-bar/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/navigation-bar/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/plugin/axios/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/plugin/axios/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/router/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/router/routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,36 +24,6 @@
         <option value="Python Script" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>theme</find>
-      <find>table</find>
-      <find>el-row</find>
-      <find>aside</find>
-      <find>isBlog</find>
-      <find>width: 300px</find>
-      <find>clientHeight</find>
-      <find>大头博客的首页</find>
-      <find>vue</find>
-      <find>externals</find>
-      <find>loading</find>
-      <find>searchName</find>
-      <find>push</find>
-      <find>route.path.params</find>
-      <find>route.params.href</find>
-      <find>currentChoice</find>
-      <find>aside_bar</find>
-      <find>1</find>
-      <find>===</find>
-      <find>da</find>
-      <find>loading.close()</find>
-      <find>params.name</find>
-      <find>console</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>route.params</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -205,14 +180,11 @@
       <workItem from="1582195597190" duration="519000" />
       <workItem from="1582196127482" duration="3647000" />
       <workItem from="1582275726932" duration="6158000" />
-      <workItem from="1582296279047" duration="277000" />
-    </task>
-    <task id="LOCAL-00140" summary="loading and error">
-      <created>1570084727413</created>
-      <option name="number" value="00140" />
-      <option name="presentableId" value="LOCAL-00140" />
-      <option name="project" value="LOCAL" />
-      <updated>1570084727414</updated>
+      <workItem from="1582296279047" duration="564000" />
+      <workItem from="1582351381158" duration="18000" />
+      <workItem from="1583759232116" duration="27000" />
+      <workItem from="1584410847335" duration="6394000" />
+      <workItem from="1584417255704" duration="593000" />
     </task>
     <task id="LOCAL-00141" summary="loading and error">
       <created>1570088665344</created>
@@ -550,7 +522,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582283333980</updated>
     </task>
-    <option name="localTasksCounter" value="189" />
+    <task id="LOCAL-00189" summary="网页底部备案号">
+      <created>1582296586347</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1582296586348</updated>
+    </task>
+    <option name="localTasksCounter" value="190" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -594,7 +573,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="vendor 文件优化" />
     <MESSAGE value="修改gitignore" />
     <MESSAGE value="mapproduction: false" />
     <MESSAGE value="vendor优化" />
@@ -619,7 +597,8 @@
     <MESSAGE value="修复公式显示bug" />
     <MESSAGE value="windows试用&amp;增加备案号" />
     <MESSAGE value="安卓后端测试接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="安卓后端测试接口" />
+    <MESSAGE value="网页底部备案号" />
+    <option name="LAST_COMMIT_MESSAGE" value="网页底部备案号" />
   </component>
   <component name="WindowStateProjectService">
     <state x="352" y="10" key="#ESLint" timestamp="1582194730638">
@@ -634,40 +613,53 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2334" y="149" width="1122" height="814" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582282705841" />
-    <state x="2321" y="0" key="CommitChangelistDialog2" timestamp="1582296364747">
+    <state x="2321" y="0" key="CommitChangelistDialog2" timestamp="1582296585473">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2321" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582296364747" />
+    <state x="2321" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582296585473" />
     <state x="2560" y="139" key="FileChooserDialogImpl" timestamp="1582196892142">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="139" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582194726769" />
     <state x="2560" y="139" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582196892142" />
-    <state width="1855" height="219" key="GridCell.Tab.0.bottom" timestamp="1582283338883">
+    <state width="1855" height="219" key="GridCell.Tab.0.bottom" timestamp="1584417963288">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1855" height="219" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582283338883" />
-    <state width="1855" height="219" key="GridCell.Tab.0.center" timestamp="1582283338882">
+    <state width="1855" height="219" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584411095042" />
+    <state width="1855" height="219" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584417963288" />
+    <state width="1855" height="219" key="GridCell.Tab.0.center" timestamp="1584417963288">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1855" height="219" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582283338882" />
-    <state width="1855" height="219" key="GridCell.Tab.0.left" timestamp="1582283338882">
+    <state width="1855" height="219" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584411095042" />
+    <state width="1855" height="219" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584417963288" />
+    <state width="1855" height="219" key="GridCell.Tab.0.left" timestamp="1584417963287">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1855" height="219" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582283338882" />
-    <state width="1855" height="219" key="GridCell.Tab.0.right" timestamp="1582283338883">
+    <state width="1855" height="219" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584411095042" />
+    <state width="1855" height="219" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584417963287" />
+    <state width="1855" height="219" key="GridCell.Tab.0.right" timestamp="1584417963288">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1855" height="219" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582283338883" />
+    <state width="1855" height="219" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584411095042" />
+    <state width="1855" height="219" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584417963288" />
     <state x="2030" y="0" key="SettingsEditor" timestamp="1582198289006">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="110" y="219" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582194449686" />
     <state x="2030" y="0" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582198289006" />
+    <state x="2012" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1584414038937">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2012" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584414038937" />
     <state x="2560" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1582196129408">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582194384068" />
     <state x="2560" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582196129408" />
+    <state x="1920" y="0" width="930" height="1040" key="find.popup" timestamp="1584413870901">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" width="930" height="1040" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584410952991" />
+    <state x="1920" y="0" width="930" height="1040" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584413870901" />
   </component>
 </project>
