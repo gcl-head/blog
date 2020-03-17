@@ -16,11 +16,11 @@ const router = new VueRouter({
 router.afterEach(async (to, from, next) => {
   /* 路由发生变化修改页面title */
   if (to.params.name) {
-    document.title = to.params.name + '-大头的博客'
+    document.title = to.params.name + '-大头的家'
   } else if (to.meta.title) {
     document.title = to.meta.title
   } else {
-    document.title = '大头的博客'
+    document.title = '大头的家'
   }
 })
 export default router

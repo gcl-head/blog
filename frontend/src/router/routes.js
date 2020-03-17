@@ -48,7 +48,7 @@ const frameIn = [
         path: ':href',
         name: 'blog',
         meta: {
-          title: '大头的博客们'
+          title: '大头的家'
         },
         component: blog
       },
@@ -56,7 +56,7 @@ const frameIn = [
         path: ':href/:name',
         name: 'blog',
         meta: {
-          title: '大头的博客们'
+          title: '大头的家'
         },
         component: blog
       }
