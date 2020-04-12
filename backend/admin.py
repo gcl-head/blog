@@ -10,7 +10,12 @@ class AuthorAdmin(admin.ModelAdmin):
     # fields = ('href', 'title', 'name')    # 自定义编辑表单，在编辑表单的时候 显示哪些字段，显示的属性
 
 
+class ContentAdmin(admin.ModelAdmin):
+    list_display = ('id', 'href', 'name', 'create_timestamp', 'last_edit_timestamp')   # 指定要显示的字段
+    # fields = ('href', 'title', 'name')    # 自定义编辑表单，在编辑表单的时候 显示哪些字段，显示的属性
+
+
 admin.site.register(models.BlogItem, AuthorAdmin)
 admin.site.register(models.BlogGroup)
 # admin.site.register(models.BlogItem)
-admin.site.register(models.BlogContent)
+admin.site.register(models.BlogContent, ContentAdmin)
