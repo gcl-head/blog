@@ -22,4 +22,5 @@ class BlogContent(models.Model):
     create_timestamp = models.DateTimeField(auto_now_add=True, null=True)  # 首次创建时间
     last_edit_timestamp = models.DateTimeField(auto_now=True, null=True)  # 最后修改时间
 
-
+    class Meta:
+        unique_together = ('href', 'name')
