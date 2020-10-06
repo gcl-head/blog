@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bbb37b67-14bc-4fd2-8d74-e5539b1694ac" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,13 +222,9 @@
       <workItem from="1589509147263" duration="453000" />
       <workItem from="1589807515066" duration="5000" />
       <workItem from="1591961735118" duration="651000" />
-    </task>
-    <task id="LOCAL-00155" summary="超级大改版，增加路由变化，方便查询">
-      <created>1570764019657</created>
-      <option name="number" value="00155" />
-      <option name="presentableId" value="LOCAL-00155" />
-      <option name="project" value="LOCAL" />
-      <updated>1570764019657</updated>
+      <workItem from="1591962915213" duration="72000" />
+      <workItem from="1593868300977" duration="29000" />
+      <workItem from="1601974484906" duration="364000" />
     </task>
     <task id="LOCAL-00156" summary="超级大改版，增加路由变化，方便查询">
       <created>1570765481486</created>
@@ -565,7 +562,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591962314479</updated>
     </task>
-    <option name="localTasksCounter" value="204" />
+    <task id="LOCAL-00204" summary="博客更新">
+      <created>1591962942039</created>
+      <option name="number" value="00204" />
+      <option name="presentableId" value="LOCAL-00204" />
+      <option name="project" value="LOCAL" />
+      <updated>1591962942039</updated>
+    </task>
+    <option name="localTasksCounter" value="205" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -637,55 +641,21 @@
     <option name="LAST_COMMIT_MESSAGE" value="博客更新" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="401" y="0" key="CommitChangelistDialog2" timestamp="1591962313876">
+    <state width="1855" height="275" key="GridCell.Tab.0.bottom" timestamp="1601974940558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="401" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591962313876" />
-    <state x="2321" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589509505383" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1587098759344">
+    <state width="1855" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601974940558" />
+    <state width="1855" height="275" key="GridCell.Tab.0.center" timestamp="1601974940558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587098759344" />
-    <state width="1855" height="213" key="GridCell.Tab.0.bottom" timestamp="1591962385687">
+    <state width="1855" height="275" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601974940558" />
+    <state width="1855" height="275" key="GridCell.Tab.0.left" timestamp="1601974940558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1855" height="213" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591962385687" />
-    <state width="1855" height="420" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589509511374" />
-    <state width="1855" height="213" key="GridCell.Tab.0.center" timestamp="1591962385686">
+    <state width="1855" height="275" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601974940558" />
+    <state width="1855" height="275" key="GridCell.Tab.0.right" timestamp="1601974940558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1855" height="213" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591962385686" />
-    <state width="1855" height="420" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589509511374" />
-    <state width="1855" height="213" key="GridCell.Tab.0.left" timestamp="1591962385686">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1855" height="213" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591962385686" />
-    <state width="1855" height="420" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589509511374" />
-    <state width="1855" height="213" key="GridCell.Tab.0.right" timestamp="1591962385686">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1855" height="213" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591962385686" />
-    <state width="1855" height="420" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589509511374" />
-    <state width="328" height="729" key="HiddenNamespacesPopup" timestamp="1589509521805">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="328" height="729" key="HiddenNamespacesPopup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589509521805" />
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1587098759344">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587098759344" />
-    <state x="2012" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1584414038937">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2012" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584414038937" />
-    <state x="1920" y="0" width="930" height="1040" key="find.popup" timestamp="1589472349505">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="0" y="0" width="930" height="1040" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584410952991" />
-    <state x="1920" y="0" width="930" height="1040" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589472349505" />
-    <state x="453" y="-2" width="1009" height="1470" key="search.everywhere.popup" timestamp="1586663620318">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="453" y="-2" width="1009" height="1470" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586663620318" />
+    <state width="1855" height="275" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601974940558" />
   </component>
 </project>
